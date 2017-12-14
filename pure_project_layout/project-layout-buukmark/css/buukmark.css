@@ -1,0 +1,75 @@
+/*---- .bookmark-search start ----*/
+.bookmark-search {
+	width: 100%;
+	min-width: 1000px;
+	height: 70px;
+	border-bottom: 1px solid #DCDCDC;
+}
+.bookmark-search fieldset {
+	width: 900px;
+	border: 0;
+	margin: 0 auto;
+}
+.bookmark-search legend {
+	display: none;
+}
+.bookmark-search p {
+	padding-top: 10px;
+}
+.bookmark-search-condition {
+	width: 190px;
+	height: 40px;
+	margin-right: 2px;
+	border: 1px solid #DCDCDC;
+}
+.bookmark-search-word {
+	width: 590px;
+	height: 38px;
+	margin-right: 2px;
+	border: 1px solid #DCDCDC;
+}
+.bookmark-search-btn {
+	width: 90px;
+	height: 40px;
+	background: red;
+	margin-top: -4px;
+	margin-right: 2px;
+	border: 1px solid #DCDCDC;
+	background: #CACACA;
+}
+/*---- .bookmark-search end ----*/
+
+
+/*---- .bookmark-list start ----*/
+.bookmark-list {
+	width: 100%;
+	min-width: 1000px;
+	height: auto;
+	margin: 30px 0;
+}
+.bookmark-list table {
+	width: 900px;
+	margin: 0 auto;
+}
+.bookmark-list caption {
+	display: none;
+}
+.bookmark-list thead {
+	background: #D8D8D8;
+}
+.bookmark-list thead>tr {
+	height: 40px;
+	border-bottom: 1px solid #C6C6C6;
+}
+.bookmark-list thead>tr>th {
+	text-align: center;
+}
+.bookmark-list tbody { }
+.bookmark-list tbody>tr {
+	height: 35px;
+	border-bottom: 0.5px solid #C6C6C6;
+}
+.bookmark-list tbody>tr>td {
+	text-align: center;
+}
+/*---- .bookmark-list start ----*/
