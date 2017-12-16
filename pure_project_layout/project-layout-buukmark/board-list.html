@@ -13,7 +13,8 @@
 	    <!--<![endif]-->
 		<link rel="stylesheet" href="./css/stickyfooter.css">
 		<link rel="stylesheet" href="./css/layout.css">
-		<link rel="stylesheet" href="./css/buukmark.css">
+		<link rel="stylesheet" href="./css/board.css">
+		<link rel="stylesheet" href="./css/font-awesome.min.css">
 		
 	</head>
 	<body>
@@ -41,24 +42,16 @@
 				</div><!-- #nav -->
 
 				<div id="section">
-					<div class="bookmark-search">
-						<form action="">
-							<fieldset>
-								<legend>북마크 검색</legend>
-								<p>
-									<select class="bookmark-search-condition">
-										<option>검색조건</option>
-									</select>
-									<input type="text" value="설명" class="bookmark-search-word"/>
-									<button class="pure-button bookmark-search-btn">검색</button>
-								</p>
-							</fieldset>
-						</form>
+				
+					<div class="board-nav">
+						<div class="board-nav-title">
+							<span>자유게시판 목록</span>
+						</div>
 					</div>
 					
-					<div class="bookmark-list">
+					<div class="board-list">
 						<table>
-							<caption>북마크 목록</caption>
+							<caption>게시판 목록</caption>
 							<colgroup>
 								<col width="20%" />
 								<col width="80%" />
@@ -141,6 +134,43 @@
 								
 							</tbody>
 						</table>					
+					</div>
+					
+					<div class="board-pagination">
+						<a href="#"><i class="fa fa-chevron-left"></i></a>
+						<a href="#"><i class="fa fa-angle-left"></i></a>
+	
+						<a href="#">1</a>
+						<strong>2</strong>
+						<a href="#">3</a>
+						<a href="#">4</a>
+						<a href="#">5</a>
+	
+						<a href="#"><i class="fa fa-angle-right"></i></a>
+						<a href="#"><i class="fa fa-chevron-right"></i></a>
+					</div>
+					
+					<div class="board-btn">
+						<div class="board-btn-list">
+							<div class="board-btn-group">
+								<a href="">글쓰기</a>
+							</div>
+						</div>
+					</div>
+					
+					<div class="board-search">
+						<form action="">
+							<fieldset>
+								<legend>북마크 검색</legend>
+								<p>
+									<select class="board-search-condition">
+										<option>검색조건</option>
+									</select>
+									<input type="text" value="설명" class="board-search-word" />
+									<button class="board-search-btn">검색</button>
+								</p>
+							</fieldset>
+						</form>
 					</div>
 				</div><!-- #section -->
 
