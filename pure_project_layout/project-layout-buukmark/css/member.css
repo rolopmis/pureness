@@ -1,37 +1,46 @@
-/*---- .member-search start ----*/
-.member-search {
+/*---- .member-nav start ----*/
+.member-nav {
 	width: 100%;
 	min-width: 1000px;
-	height: 70px;
-	border-bottom: 1px solid #DCDCDC;
+	height: auto;
+	margin-top: 30px;
 }
-.member-search fieldset {
-	width: 900px;
+.member-nav-title {
+	width: 350px;
+	margin: 0 auto;
+}
+.member-nav-title>span {
+	font-weight: bold;
+	font-size: 16px;
+}
+/*---- .member-nav end ----*/
+
+
+/*---- .member-login start ----*/
+.member-login {
+	width: 100%;
+	min-width: 1000px;
+	height: 200px;
+}
+.member-login fieldset {
+	width: 350px;
 	border: 0;
 	margin: 0 auto;
 }
-.member-search legend {
+.member-login legend {
 	display: none;
 }
-.member-search p {
-	padding-top: 10px;
+.member-login p {
+	padding-top: 15px;
 }
-.member-search-condition {
-	width: 190px;
+.member-login-input {
+	width: 348px;
 	height: 40px;
-	margin-right: 2px;
 	border: 1px solid #DCDCDC;
 }
-.member-search-word {
-	width: 590px;
-	height: 38px;
-	margin-right: 2px;
-	border: 1px solid #DCDCDC;
-}
-.member-search-btn {
-	width: 90px;
+.member-login-btn {
+	width: 348px;
 	height: 40px;
-	background: red;
 	margin-top: -4px;
 	margin-right: 2px;
 	border: 1px solid #DCDCDC;
@@ -40,36 +49,33 @@
 /*---- .member-search end ----*/
 
 
-/*---- .member-list start ----*/
-.member-list {
+/*---- .member-btn start ----*/
+.member-btn {
 	width: 100%;
 	min-width: 1000px;
-	height: auto;
-	margin: 30px 0;
+	height: 30px;
+	margin-top: 20px;
+	margin-bottom: 30px;
 }
-.member-list table {
-	width: 900px;
+.member-btn-list {
+	width: 350px;
+	height: inherit;
 	margin: 0 auto;
 }
-.member-list caption {
-	display: none;
+.member-btn-group {
+	float: right;
+	width: auto;
+	height: inherit;
 }
-.member-list thead {
-	background: #D8D8D8;
+.member-btn-group a {
+	display: inline-block;
+	font-size: 16px;
+	line-height: 20px;;
+	text-decoration: none;
+	color: #000;
+	margin: 0 10px;
 }
-.member-list thead>tr {
-	height: 40px;
-	border-bottom: 1px solid #C6C6C6;
+.member-btn-group a:active {
+	color: #000;
 }
-.member-list thead>tr>th {
-	text-align: center;
-}
-.member-list tbody { }
-.member-list tbody>tr {
-	height: 35px;
-	border-bottom: 0.5px solid #C6C6C6;
-}
-.member-list tbody>tr>td {
-	text-align: center;
-}
-/*---- .member-list end ----*/
+/*---- .board-btn end ----*/
