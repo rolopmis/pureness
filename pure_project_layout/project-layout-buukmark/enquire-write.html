@@ -13,7 +13,7 @@
 	    <!--<![endif]-->
 		<link rel="stylesheet" href="./css/stickyfooter.css">
 		<link rel="stylesheet" href="./css/layout.css">
-		<link rel="stylesheet" href="./css/member.css">
+		<link rel="stylesheet" href="./css/enquire.css">
 		<link rel="stylesheet" href="./css/font-awesome.min.css">
 		
 	</head>
@@ -42,40 +42,41 @@
 				</div><!-- #nav -->
 
 				<div id="section">
-					<div class="member-nav">
-						<div class="member-nav-title">
-							<span>회원가입</span>
+					<div class="enquire-nav">
+						<div class="enquire-nav-title">
+							<span>문의사항</span>
+						</div>
+						<div class="enquire-nav-desc">
+							<span>문의한 내용은 메일로 받아보실 수 있습니다.</span>
 						</div>
 					</div>
 					
-					<div class="member-join">
-						<form action="">
-							<fieldset>
-								<legend>회원가입</legend>
-								<p>
-									<input type="text" class="member-join-input" placeholder="아이디" />
-								</p>
-								<p>
-									<input type="password" class="member-join-input" placeholder="비밀번호" />
-								</p>
-								<p>
-									<input type="password" class="member-join-input" placeholder="비밀번호 확인" />
-								</p>
-								<p>
-									<input type="text" class="member-join-input" placeholder="이메일" />
-								</p>
-								<p>
-									<input type="text" class="member-join-input" placeholder="이름" />
-								</p>
-								<p>
-									<input type="text" class="member-join-input" placeholder="닉네임" />
-								</p>
-								<p>
-									<button class="member-login-btn">회원가입</button>
-								</p>
-								
-							</fieldset>
-						</form>
+					<div class="enquire-write">
+						<table>
+							<caption>문의하기</caption>
+							<colgroup>
+								<col width="100%" />
+							</colgroup>
+							<thead>
+								<tr>
+									<th><input type="text" class="enquire-write-title" placeholder="제목" /></th>
+								</tr>
+							</thead>
+							<tbody>
+								<tr>
+									<td><textarea class="enquire-write-content" placeholder="내용"></textarea></td>
+								</tr>
+							</tbody>
+						</table>					
+					</div>
+					
+					<div class="enquire-btn">
+						<div class="enquire-btn-list">
+							<div class="enquire-btn-group">
+								<a href="">문의하기</a>
+								<a href="">뒤로가기</a>
+							</div>
+						</div>
 					</div>
 					
 				</div><!-- #section -->

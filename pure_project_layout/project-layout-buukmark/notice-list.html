@@ -13,18 +13,9 @@
 	    <!--<![endif]-->
 		<link rel="stylesheet" href="./css/stickyfooter.css">
 		<link rel="stylesheet" href="./css/layout.css">
-		<link rel="stylesheet" href="./css/buukmark.css">
+		<link rel="stylesheet" href="./css/notice.css">
+		<link rel="stylesheet" href="./css/font-awesome.min.css">
 		
-		<!-- jQuery -->
-		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0/jquery.min.js"></script>
-		<!-- jQuery Modal -->
-		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.js"></script>
-		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.css" />
-		<script type="text/javascript">
-			function ex1(){
-				$('.bookmark-add-category').val('test');
-			}
-		</script>
 	</head>
 	<body>
 		<div id="wrap">
@@ -51,44 +42,16 @@
 				</div><!-- #nav -->
 
 				<div id="section">
-					<div class="bookmark-mySearch">
-						<form action="">
-							<fieldset>
-								<legend>북마크 검색</legend>
-								<p>
-									<select class="bookmark-mySearch-condition">
-										<option>검색조건</option>
-									</select>
-									<input type="text" class="bookmark-mySearch-word" placeholder="설명" />
-									<button class="pure-button bookmark-mySearch-btn">검색</button>
-									<a href="#bookmark-add" rel="modal:open" class="pure-button bookmark-myAdd-btn" onclick="ex1();">+</a>
-								</p>
-							</fieldset>
-						</form>
+				
+					<div class="notice-nav">
+						<div class="notice-nav-title">
+							<span>공지사항 목록</span>
+						</div>
 					</div>
 					
-					<div id="bookmark-add" class="bookmark-add" style="display: none;">
-						<form action="">
-							<fieldset>
-								<legend>북마크 검색</legend>
-								<p>
-									<select class="bookmark-add-type">
-										<option>유형선택</option>
-									</select>
-									<input type="text" class="bookmark-add-category" placeholder="카테고리" />
-									<input type="text" class="bookmark-add-description" placeholder="설명" />
-									<button class="pure-button bookmark-add-btn">등록</button>
-								</p>
-								<p>
-									<input type="text" class="bookmark-add-url" placeholder="URL" />
-								</p>
-							</fieldset>
-						</form>
-					</div>
-					
-					<div class="bookmark-list">
+					<div class="notice-list">
 						<table>
-							<caption>북마크 목록</caption>
+							<caption>게시판 목록</caption>
 							<colgroup>
 								<col width="20%" />
 								<col width="80%" />
@@ -171,6 +134,43 @@
 								
 							</tbody>
 						</table>					
+					</div>
+					
+					<div class="notice-pagination">
+						<a href="#"><i class="fa fa-chevron-left"></i></a>
+						<a href="#"><i class="fa fa-angle-left"></i></a>
+	
+						<a href="#">1</a>
+						<strong>2</strong>
+						<a href="#">3</a>
+						<a href="#">4</a>
+						<a href="#">5</a>
+	
+						<a href="#"><i class="fa fa-angle-right"></i></a>
+						<a href="#"><i class="fa fa-chevron-right"></i></a>
+					</div>
+					
+					<div class="notice-btn">
+						<div class="notice-btn-list">
+							<div class="notice-btn-group">
+								<a href="">글쓰기</a>
+							</div>
+						</div>
+					</div>
+					
+					<div class="notice-search">
+						<form action="">
+							<fieldset>
+								<legend>북마크 검색</legend>
+								<p>
+									<select class="notice-search-condition">
+										<option>검색조건</option>
+									</select>
+									<input type="text" class="notice-search-word" />
+									<button class="notice-search-btn">검색</button>
+								</p>
+							</fieldset>
+						</form>
 					</div>
 				</div><!-- #section -->
 
