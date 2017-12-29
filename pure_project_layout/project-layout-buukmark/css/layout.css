@@ -30,6 +30,7 @@
 
 /*--- header start ---*/
 #header {
+	position: relative;
 	width: 100%;
 	min-width: 1000px;
 	height: 30px;
@@ -49,13 +50,16 @@
 	line-height: 30px;
 }
 .header-member {
-	float: right;
+	position: absolute;
+	right: 0;
 	padding: 0 20px;
 }
-.header-member>span{
+.header-member>a{
 	clear: both;
 	padding-right: 10px;
 	line-height: 30px;
+	text-decoration: none;
+	color: #000;
 }
 /*--- header end ---*/
 
@@ -76,8 +80,10 @@
 	line-height: 50px;
 	text-align: center;
 }
-.nav-menus>span {
+.nav-menus>a {
 	padding: 0 10px;
+	text-decoration: none;
+	color: #000;
 }
 /*--- nav end ---*/
 
