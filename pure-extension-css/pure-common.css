@@ -3,21 +3,24 @@
  */
 
 /* ---- common ---- */
-.pure-line{ height: 50px; line-height: 50px; }
-.pure-center{ margin: 0 auto; }
+.pure-center { margin: 0 auto; }
+.pure-img-responsive {
+	max-width: 100%;
+    height: auto;
+}
 
 /* ---- display ---- */
 .pure-display-none { display: none; }
 
 /* ---- text-align ---- */
-.pure-text-center { text-align: center; }
-.pure-text-left { text-align: left; }
-.pure-text-right { text-align: right;}
+.pure-txt-center { text-align: center; }
+.pure-txt-left { text-align: left; }
+.pure-txt-right { text-align: right;}
 
 /* ---- vertical-align ---- */
-.pure-text-top { vertical-align: top; }
-.pure-text-middle { vertical-align: middle; }
-.pure-text-bottom { vertical-align: bottom; }
+.pure-txt-top { vertical-align: top; }
+.pure-txt-middle { vertical-align: middle; }
+.pure-txt-bottom { vertical-align: bottom; }
 
 /* ---- width ---- */
 .pure-wd-5 { width: 5px; }
