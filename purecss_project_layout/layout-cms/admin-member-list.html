@@ -9,6 +9,7 @@
 	
 	<link rel="stylesheet" href="https://unpkg.com/purecss@1.0.0/build/pure-min.css" integrity="sha384-" crossorigin="anonymous">
 	<link rel="stylesheet" href="css/layouts/admin-layout.css">
+	<link rel="stylesheet" href="css/layouts/admin-section.css">
 	<link rel="stylesheet" href="css/layouts/admin-board.css">
 	<link rel="stylesheet" href="../../purecss-extension/purecss-common.css">
 	<link rel="stylesheet" href="../../font-awesome-4.7.0/css/font-awesome.min.css">
@@ -21,15 +22,24 @@
 			<div class="pure-menu">
 				<a class="pure-menu-heading" href="#">PURE ADMIN</a>
 				<ul class="pure-menu-list">
-					<li class="pure-menu-item"><a href="#" class="pure-menu-link">메인</a></li>
-					<li class="pure-menu-item"><a href="#" class="pure-menu-link">메뉴</a></li>
-					<li class="pure-menu-item"><a href="#" class="pure-menu-link">콘텐츠</a></li>
-					<li class="pure-menu-item menu-item-divided pure-menu-selected">
-						<a href="#" class="pure-menu-link">회원</a>
+					<li class="pure-menu-item">
+						<a href="./admin-menu.html" class="pure-menu-link">메뉴</a>
 					</li>
-					<li class="pure-menu-item"><a href="#" class="pure-menu-link">권한</a></li>
-					<li class="pure-menu-item"><a href="#" class="pure-menu-link">통계</a></li>
-					<li class="pure-menu-item"><a href="#" class="pure-menu-link">사이트</a></li>
+					<li class="pure-menu-item">
+						<a href="./admin-content-list.html" class="pure-menu-link">콘텐츠</a>
+					</li>
+					<li class="pure-menu-item">
+						<a href="./admin-board-list.html" class="pure-menu-link">게시판</a>
+					</li>
+					<li class="pure-menu-item menu-item-divided pure-menu-selected">
+						<a href="./admin-member-list.html" class="pure-menu-link">회원</a>
+					</li>
+					<li class="pure-menu-item">
+						<a href="#" class="pure-menu-link">통계</a>
+					</li>
+					<li class="pure-menu-item">
+						<a href="./admin-site.html" class="pure-menu-link">사이트</a>
+					</li>
 				</ul>
 			</div>
 		</div>
@@ -85,7 +95,9 @@
 						<tbody>
 							<tr>
 								<td>identification</td>
-								<td class="pure-txt-center">사용자</td>
+								<td class="pure-txt-center">
+									<a href="./admin-member-view.html">사용자</a>
+								</td>
 								<td class="pure-txt-center">2018-03-24</td>
 								<td class="pure-txt-center">2018-03-26</td>
 								<td class="pure-txt-center">탈퇴</td>
@@ -93,7 +105,9 @@
 			
 							<tr>
 								<td>cheolsu</td>
-								<td class="pure-txt-center">김철수</td>
+								<td class="pure-txt-center">
+									<a href="./admin-member-view.html">김철수</a>
+								</td>
 								<td class="pure-txt-center">2018-03-22</td>
 								<td class="pure-txt-center"></td>
 								<td class="pure-txt-center"></td>
