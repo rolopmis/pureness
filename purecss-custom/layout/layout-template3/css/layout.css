@@ -1,0 +1,52 @@
+/*
+    colors
+	#EAF6F7, #C7E4DB, #8FBCA7, #959C67, #EEC697, #EFE6DD
+*/
+
+html, body {height: 100%;}
+
+#wrap {
+	min-height: 100%;
+	background:#EFE6DD;
+}
+
+#main {}
+
+#section {
+	
+}
+
+#aside { 
+	height:auto; 
+	background:#EEC697;
+}
+
+#content {}
+
+@media (min-width: 48em) {
+	#section {
+		padding-left:200px;
+	}
+	
+	#aside {
+		position:fixed; 
+		top:0; 
+		bottom:0;
+		margin-left:-200px; 
+		width:200px;
+		background:#EEC697;
+	}
+	
+	#content { }
+}
+
+@media (max-width: 48em) {
+	#section { }
+	
+	#aside { 
+		height:30px;
+		background:#EEC697;
+	}
+	
+	#content {}
+}
