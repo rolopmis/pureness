@@ -1,0 +1,132 @@
+/* ---- setting-list ---- */
+.pure-setting-list {
+    width: 100%;
+}
+
+.pure-setting-list th {
+    text-align: center;
+}
+
+.pure-setting-list td {
+    font-weight: lighter;
+}
+
+.pure-setting-list a {
+    text-decoration: none;
+}
+
+.pure-setting-list .edit {
+    color: #1f8dd6;
+}
+
+.pure-setting-list .delete {
+    color: #dd514c;
+}
+
+/* ---- setting-form ---- */
+.pure-setting-form {
+    width: 100%;
+}
+
+.pure-setting-form .pure-g {
+    margin-bottom: 10px;
+}
+
+.pure-setting-form input[type=text], .pure-setting-form button {
+    height: 40px;
+}
+
+.pure-setting-form button {
+    margin-left: 10px;
+}
+
+.pure-setting-form textarea {
+    width: 100%;
+    height: 350px;
+    resize: none;
+}
+
+.pure-setting-form b, .pure-setting-form span, .pure-setting-form small, .pure-setting-form label {
+    line-height: 40px;
+    font-weight: normal;
+}
+.pure-setting-form b {
+    font-size: 16px;
+    font-weight: bold;
+    padding-left: 30px;
+}
+
+.pure-setting-form small {
+    font-size: 12px;
+    color: #ff0000;
+    padding-left: 10px;
+}
+
+.pure-setting-form label {
+    font-size: 16px;
+}
+
+/* ---- search ---- */
+.pure-search {
+    width: 100%;
+    height: 70px;
+    margin: 20px 0;
+    border: 1px solid #cbcbcb;
+}
+
+.pure-search select, .pure-search input, .pure-search button {
+    height: 40px;
+    margin: 15px 0;
+}
+
+.pure-search select {
+    margin-left: 5px;
+    width: 95%;
+}
+
+.pure-search input {
+    width: 99%;
+}
+
+.pure-search button {
+    width: 95%;
+}
+
+/* ---- btn-group ---- */
+.pure-btn-group {
+    text-align: right;
+}
+
+
+/* ---- pagination ---- */
+.pure-pagination {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.pure-pagination a, .pure-pagination strong {
+    display: inline-block;
+    background: #FFF;
+    margin-right: 3px;
+    padding: 4px 13px;
+    font-size: 16px;
+    line-height: 20px;;
+    text-decoration: none;
+    color: #4A4A4A;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+}
+
+.pure-pagination a:hover {
+    background-color: #BEBEBE;
+    color: #FFF;
+}
+
+.pure-pagination a:active {
+    background: #D5D5D5;
+}
+
+.pure-pagination strong {
+    color: #1f8dd6;
+}

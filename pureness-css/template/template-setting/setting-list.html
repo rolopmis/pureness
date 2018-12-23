@@ -1,0 +1,116 @@
+<!doctype html>
+<html lang="ko">
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>purecss.io</title>
+		<link rel="stylesheet" href="https://unpkg.com/purecss@1.0.0/build/pure-min.css" integrity="sha384-" crossorigin="anonymous">
+		<!--[if lte IE 8]>
+		<link rel="stylesheet" href="https://unpkg.com/purecss@1.0.0/build/grids-responsive-old-ie-min.css">
+		<![endif]-->
+		<!--[if gt IE 8]><!-->
+		<link rel="stylesheet" href="https://unpkg.com/purecss@1.0.0/build/grids-responsive-min.css">
+		<!--<![endif]-->
+		<link rel="stylesheet" href="../../pureness/common.css">
+		<link rel="stylesheet" href="css/setting.css">
+		<style type="text/css">
+			h1{
+				padding: 0.6em 0.6em;
+			}
+			.content {
+				width: 1000px;
+				margin: 0 auto;
+			}
+		</style>
+	</head>
+	<body>
+
+		<div class="content">
+
+			<div class="section">
+				<h2>설정 <small>리스트</small></h2>
+
+				<form class="pure-form pure-g pure-search">
+					<div class="pure-u-1-4">
+						<select id="state">
+							<option>검색조건</option>
+						</select>
+					</div>
+					<div class="pure-u-5-8">
+						<input type="text" placeholder="검색내용">
+					</div>
+					<div class="pure-u-1-8">
+						<button type="submit" class="pure-button pure-button-primary">검색</button>
+					</div>
+				</form><!-- pure-search -->
+
+				<table class="pure-table pure-table-horizontal pure-setting-list">
+					<colgroup>
+						<col width="5%" />
+						<col width="50%" />
+						<col width="13%" />
+						<col width="17%" />
+						<col width="15%" />
+					</colgroup>
+
+					<thead>
+						<tr>
+							<th></th>
+							<th>게시판명</th>
+							<th>생성자</th>
+							<th>생성일</th>
+							<th></th>
+						</tr>
+					</thead>
+
+					<tbody>
+						<tr>
+							<td class="pure-txt-center">1</td>
+							<td>자유게시판</td>
+							<td class="pure-txt-center">관리자</td>
+							<td class="pure-txt-center">2018-03-24</td>
+							<td class="pure-txt-center">수정 / 삭제</td>
+						</tr>
+
+						<tr>
+							<td class="pure-txt-center">2</td>
+							<td>공지사항</td>
+							<td class="pure-txt-center">관리자</td>
+							<td class="pure-txt-center">2018-03-24</td>
+							<td class="pure-txt-center">수정 / 삭제</td>
+						</tr>
+
+						<tr>
+							<td class="pure-txt-center">3</td>
+							<td>문의사항</td>
+							<td class="pure-txt-center">관리자</td>
+							<td class="pure-txt-center">2018-03-24</td>
+							<td class="pure-txt-center">수정 / 삭제</td>
+						</tr>
+					</tbody>
+				</table><!-- pure-setting-list -->
+
+				<div class="pure-pagination">
+					<a href="#"><i class="fa fa-chevron-left"></i></a>
+					<a href="#"><i class="fa fa-angle-left"></i></a>
+
+					<a href="#">1</a>
+					<strong>2</strong>
+					<a href="#">3</a>
+					<a href="#">4</a>
+					<a href="#">5</a>
+
+					<a href="#"><i class="fa fa-angle-right"></i></a>
+					<a href="#"><i class="fa fa-chevron-right"></i></a>
+				</div><!-- pure-pagination -->
+
+				<div class="pure-btn-group">
+					<a href="admin-board-write.html" class="pure-button">등록</a>
+				</div><!-- pure-btn-group -->
+
+			</div><!-- .section -->
+
+		</div><!-- .content -->
+
+	</body>
+</html>
