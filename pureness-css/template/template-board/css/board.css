@@ -1,101 +1,135 @@
 /* ---- board-list ---- */
 .pure-board-list {
     width: 100%;
+    border: 0px;
 }
-
+.pure-board-list th, .pure-board-list td {
+    border: 0px;
+}
 .pure-board-list th {
     text-align: center;
 }
 
 .pure-board-list td {
     font-weight: lighter;
+    border-bottom: 1px solid #CBCBCB;
 }
 
 .pure-board-list a {
     text-decoration: none;
 }
 
-.pure-board-list .edit {
-    color: #1f8dd6;
-}
-
-.pure-board-list .delete {
-    color: #dd514c;
-}
-
-/* ---- board-write ---- */
-.pure-board-write {
+/* ---- board-form ---- */
+.pure-board-form {
     width: 100%;
 }
-
-.pure-board-write .pure-g {
+.pure-board-form .title, .pure-board-form .content {
     margin-bottom: 10px;
 }
-
-.pure-board-write input[type=text], .pure-board-write button {
-    height: 40px;
+.pure-board-form .title>input {
+    width: 100%;
 }
-
-.pure-board-write button {
-    margin-left: 10px;
-}
-
-.pure-board-write textarea {
+.pure-board-form .content>textarea {
     width: 100%;
     height: 350px;
     resize: none;
-}
-
-.pure-board-write b, .pure-board-write span, .pure-board-write small, .pure-board-write label {
-    line-height: 40px;
-    font-weight: normal;
-}
-.pure-board-write b {
-    font-size: 16px;
-    font-weight: bold;
-    padding-left: 30px;
-}
-
-.pure-board-write small {
-    font-size: 12px;
-    padding-left: 10px;
-    color: #ff0000;
-}
-
-.pure-board-write label {
-    font-size: 16px;
 }
 
 /* ---- board-view ---- */
 .pure-board-view {
     width: 100%;
 }
-
-.pure-board-view b, .pure-board-view span {
-    font-size: 16px;
-    line-height: 40px;
+.pure-board-view .title, .pure-board-view .content {
+    pointer-events: none;
+    margin-bottom: 10px;
+}
+.pure-board-view .title {
+    border-bottom: 1px solid #CCC;
 }
 
-.pure-board-view b {
+.pure-board-view .title {
     font-weight: bold;
-    padding-left: 30px;
+    padding: .5em .6em;
+    vertical-align: middle;
+    box-sizing: border-box;
+}
+.pure-board-view .date {
+    font-weight: lighter;
+    font-size: 10px;
+    padding-top: 5px;
+    color: #7f8c8d;
 }
 
-.pure-board-view span {
-    font-weight: normal;
+.pure-board-view .content>p {
+    width: 100%;
+    min-height: 350px;
+    resize: none;
+    margin: 0;
+    padding: .5em .6em;
+    border: 1px solid #CCC;
+    border-radius: 4px;
+    vertical-align: middle;
+    box-sizing: border-box;
 }
 
+/* ---- reply-list ---- */
+.pure-reply {
+    width: 100%;
+}
+
+.pure-reply-list {
+    width: 100%;
+    border: 0px;
+}
+.pure-reply-list th, .pure-reply-list td {
+    border: 0px;
+}
+.pure-reply-list th {
+    text-align: center;
+}
+
+.pure-reply-list td {
+    font-weight: lighter;
+    border-bottom: 1px solid #CBCBCB;
+}
+
+.pure-reply-list a {
+    text-decoration: none;
+}
+
+.pure-reply-list .edit {
+    color: #1f8dd6;
+}
+
+.pure-reply-list .delete {
+    color: #dd514c;
+}
+
+/* ---- reply-form ---- */
+.pure-reply-form {
+    width: 100%;
+}
+.pure-reply-form .title, .pure-reply-form .content {
+    margin-bottom: 10px;
+}
+.pure-reply-form .title>input {
+    width: 100%;
+}
+.pure-reply-form .content>textarea {
+    width: 100%;
+    height: 350px;
+    resize: none;
+}
 
 /* ---- search ---- */
 .pure-search {
     width: 100%;
-    height: 70px;
+    height: 65px;
     margin: 20px 0;
-    border: 1px solid #cbcbcb;
+    border: 1px solid #CBCBCB;
 }
 
 .pure-search select, .pure-search input, .pure-search button {
-    height: 40px;
     margin: 15px 0;
 }
 
@@ -112,8 +146,8 @@
     width: 95%;
 }
 
-/* ---- btn-group ---- */
-.pure-btn-group {
+/* ---- pure-buttons ---- */
+.pure-buttons {
     text-align: right;
 }
 

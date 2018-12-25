@@ -1,31 +1,86 @@
 <!doctype html>
 <html lang="ko">
-	<head>
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<title>purecss.io</title>
-		<link rel="stylesheet" href="https://unpkg.com/purecss@1.0.0/build/pure-min.css" integrity="sha384-" crossorigin="anonymous">
-		<!--[if lte IE 8]>
-		<link rel="stylesheet" href="https://unpkg.com/purecss@1.0.0/build/grids-responsive-old-ie-min.css">
-		<![endif]-->
-		<!--[if gt IE 8]><!-->
-		<link rel="stylesheet" href="https://unpkg.com/purecss@1.0.0/build/grids-responsive-min.css">
-		<!--<![endif]-->
-		<link rel="stylesheet" href="css/board.css">
-		<style type="text/css">
-			h1{
-				padding: 0.6em 0.6em; 
-			}
-			.pure-division { 
-				padding: 2.4em 1.2em; 
-				font-weight: 100;
-				border-top: 1px solid #000; 
-			}
-		</style>
-	</head>
-	<body>
-		<h1>Pureness Board Template</h1>
+<head>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>purecss.io</title>
+    <link rel="stylesheet" href="https://unpkg.com/purecss@1.0.0/build/pure-min.css" integrity="sha384-"
+          crossorigin="anonymous">
+    <!--[if lte IE 8]>
+    <link rel="stylesheet" href="https://unpkg.com/purecss@1.0.0/build/grids-responsive-old-ie-min.css">
+    <![endif]-->
+    <!--[if gt IE 8]><!-->
+    <link rel="stylesheet" href="https://unpkg.com/purecss@1.0.0/build/grids-responsive-min.css">
+    <!--<![endif]-->
+    <link rel="stylesheet" href="css/board.css">
+    <style type="text/css">
+        .content {
+            width: 1000px;
+            margin: 0 auto;
+        }
+    </style>
+</head>
+<body>
+    <div class="content">
 
-	
-	</body>
+        <h2>게시판
+            <small>상세보기</small>
+        </h2>
+
+        <div class="section">
+            <div class="pure-form pure-board-view">
+                <div class="title">
+                    <span>가나다라 마바사</span>
+                    <div class="date">
+                        <span>등록일 2018-12-25 15:22:35 / 수정일 2018-12-26 15:25:55</span>
+                    </div>
+                </div>
+
+                <div class="content">
+                    <p>
+                        가나다라 마바사<br />
+                        가나다라 마바사<br />
+                        가나다라 마바사<br />
+                        가나다라 마바사<br />
+                        가나다라 마바사<br />
+                        가나다라 마바사<br />
+                        가나다라 마바사<br />
+                    </p>
+                </div>
+            </div><!-- .pure-board-view -->
+
+            <div class="pure-buttons">
+                <a href="#" class="pure-button pure-button-primary">수정</a>
+                <a href="#" class="pure-button">삭제</a>
+                <a href="#" class="pure-button">목록</a>
+            </div><!-- .pure-buttons -->
+
+            <div class="pure-form pure-reply">
+                <table class="pure-table pure-reply-list">
+                    <colgroup>
+                        <col width="30%" />
+                        <col width="30%" />
+                        <col width="40%" />
+                    </colgroup>
+
+                    <tbody>
+                        <tr>
+                            <td>1</td>
+                            <td>2</td>
+                            <td>3</td>
+                        </tr>
+                    </tbody>
+                </table>
+
+                <div class="pure-form pure-reply-form">
+                    <div class="content">
+                        <textarea placeholder="내용"></textarea>
+                    </div>
+                </div><!-- .pure-reply-write -->
+            </div><!-- .pure-board-reply-->
+
+        </div><!-- .section -->
+
+    </div><!-- .content -->
+</body>
 </html>

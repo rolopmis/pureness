@@ -1,0 +1,23 @@
+.pure-search {
+    width: 100%;
+    height: 65px;
+    margin: 20px 0;
+    border: 1px solid #cbcbcb;
+}
+
+.pure-search select, .pure-search input, .pure-search button {
+    margin: 15px 0;
+}
+
+.pure-search select {
+    margin-left: 5px;
+    width: 95%;
+}
+
+.pure-search input {
+    width: 99%;
+}
+
+.pure-search button {
+    width: 95%;
+}
