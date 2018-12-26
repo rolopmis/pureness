@@ -75,26 +75,41 @@
 /* ---- reply-list ---- */
 .pure-reply {
     width: 100%;
+    margin: 50px 0;
 }
 
 .pure-reply-list {
     width: 100%;
+    margin-bottom: 20px;
     border: 0px;
 }
-.pure-reply-list th, .pure-reply-list td {
+.pure-reply-list thead {
+    background: #FFF;
+}
+.pure-reply-list thead th {
+    text-align: left;
+}
+.pure-reply-list tbody th, .pure-reply-list tbody td {
     border: 0px;
 }
-.pure-reply-list th {
+.pure-reply-list tbody th {
     text-align: center;
+    border-bottom: 1px solid #CBCBCB;
 }
 
-.pure-reply-list td {
+.pure-reply-list tbody td {
     font-weight: lighter;
     border-bottom: 1px solid #CBCBCB;
 }
 
 .pure-reply-list a {
     text-decoration: none;
+}
+
+.pure-reply-list textarea {
+    width: 100%;
+    height: 60px;
+    resize: none;
 }
 
 .pure-reply-list .edit {
@@ -108,17 +123,21 @@
 /* ---- reply-form ---- */
 .pure-reply-form {
     width: 100%;
+    margin-top: 50px;
 }
 .pure-reply-form .title, .pure-reply-form .content {
     margin-bottom: 10px;
 }
-.pure-reply-form .title>input {
-    width: 100%;
+.pure-reply-form .title>span {
+    font-weight: bold;
 }
 .pure-reply-form .content>textarea {
     width: 100%;
-    height: 350px;
+    height: 90px;
     resize: none;
+}
+.pure-reply-form .button {
+    text-align: right;
 }
 
 /* ---- search ---- */
