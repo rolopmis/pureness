@@ -1,10 +1,82 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ko">
 <head>
-    <meta charset="UTF-8">
-    <title>Title</title>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>purecss.io</title>
+    <link rel="stylesheet" href="https://unpkg.com/purecss@1.0.0/build/pure-min.css" integrity="sha384-"
+          crossorigin="anonymous">
+    <!--[if lte IE 8]>
+    <link rel="stylesheet" href="https://unpkg.com/purecss@1.0.0/build/grids-responsive-old-ie-min.css">
+    <![endif]-->
+    <!--[if gt IE 8]><!-->
+    <link rel="stylesheet" href="https://unpkg.com/purecss@1.0.0/build/grids-responsive-min.css">
+    <!--<![endif]-->
+    <link rel="stylesheet" href="../../pureness/pureness.css">
+    <link rel="stylesheet" href="css/member.css">
+    <style type="text/css">
+        .content {
+            width: 1000px;
+            margin: 0 auto;
+        }
+    </style>
 </head>
 <body>
+    <div class="content">
+
+        <h2>회원가입
+            <small>양식</small>
+        </h2>
+
+        <div class="section">
+            <form>
+                <div class="pure-form pure-member-form">
+                    <div class="pure-g">
+                        <div class="pure-u-1-2">
+                            <span class="title">아이디</span>
+                            <input class="pure-input-1" type="text">
+                        </div>
+                    </div>
+                    <div class="pure-g">
+                        <div class="pure-u-1-2">
+                            <span class="title">비밀번호</span>
+                            <input class="pure-input-1" type="password">
+                            <span class="error">사용할 수 없는 비밀번호입니다.</span>
+                        </div>
+                    </div>
+                    <div class="pure-g">
+                        <div class="pure-u-1-2">
+                            <span class="title">비밀번호 재확인</span>
+                            <input class="pure-input-1" type="password">
+                            <span class="error">비밀번호가 일치하지 않습니다.</span>
+                        </div>
+                    </div>
+                    <div class="pure-g">
+                        <div class="pure-u-1-2">
+                            <span class="title">이름</span>
+                            <input class="pure-input-1" type="text">
+                        </div>
+                    </div>
+                    <div class="pure-g">
+                        <div class="pure-u-1-2">
+                            <span class="title">이메일</span>
+                            <input class="pure-input-1" type="text">
+                        </div>
+                    </div>
+                </div><!-- .pure-member-form -->
+            </form>
+
+            <div class="pure-member-buttons">
+                <div class="pure-g">
+                    <div class="pure-u-1-2">
+                        <button class="pure-button pure-button-primary">가입하기</button>
+                    </div>
+                </div>
+            </div><!-- .pure-member-buttons -->
+
+        </div><!-- .section -->
+
+    </div><!-- .content -->
 
 </body>
 </html>
