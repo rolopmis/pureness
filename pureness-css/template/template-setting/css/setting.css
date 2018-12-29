@@ -14,6 +14,9 @@
 .pure-setting-list a {
     text-decoration: none;
 }
+.pure-setting-list i {
+    padding: 0 10px;
+}
 
 .pure-setting-list .edit {
     color: #1f8dd6;
@@ -66,66 +69,7 @@
     font-size: 16px;
 }
 
-/* ---- search ---- */
-.pure-search {
-    width: 100%;
-    height: 65px;
-    margin: 20px 0;
-    border: 1px solid #cbcbcb;
-}
-
-.pure-search select, .pure-search input, .pure-search button {
-    margin: 15px 0;
-}
-
-.pure-search select {
-    margin-left: 5px;
-    width: 95%;
-}
-
-.pure-search input {
-    width: 99%;
-}
-
-.pure-search button {
-    width: 95%;
-}
-
 /* ---- pure-buttons ---- */
-.pure-buttons {
+.pure-setting-buttons {
     text-align: right;
-}
-
-
-/* ---- pagination ---- */
-.pure-pagination {
-    text-align: center;
-    margin: 20px 0;
-}
-
-.pure-pagination a, .pure-pagination strong {
-    display: inline-block;
-    background: #FFF;
-    margin-right: 3px;
-    padding: 4px 13px;
-    font-size: 16px;
-    line-height: 20px;;
-    text-decoration: none;
-    color: #4A4A4A;
-    -webkit-border-radius: 3px;
-    -moz-border-radius: 3px;
-    border-radius: 3px;
-}
-
-.pure-pagination a:hover {
-    background-color: #BEBEBE;
-    color: #FFF;
-}
-
-.pure-pagination a:active {
-    background: #D5D5D5;
-}
-
-.pure-pagination strong {
-    color: #1f8dd6;
 }

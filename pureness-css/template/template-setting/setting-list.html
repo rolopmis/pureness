@@ -13,6 +13,8 @@
 		<!--<![endif]-->
 		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 		<link rel="stylesheet" href="../../pureness/pureness.css">
+		<link rel="stylesheet" href="../../pureness/pagination.css">
+		<link rel="stylesheet" href="../../pureness/search.css">
 		<link rel="stylesheet" href="css/setting.css">
 		<style type="text/css">
 			h1{
@@ -41,7 +43,7 @@
 						<input type="text" placeholder="검색내용">
 					</div>
 					<div class="pure-u-1-8">
-						<button type="submit" class="pure-button pure-button-primary">검색</button>
+						<button type="submit" class="pure-button">검색</button>
 					</div>
 				</form><!-- pure-search -->
 
@@ -70,7 +72,10 @@
 							<td>자유게시판</td>
 							<td class="pure-txt-center">관리자</td>
 							<td class="pure-txt-center">2018-03-24</td>
-							<td class="pure-txt-center"><i class="fa fa-pencil" aria-hidden="true"></i> / <i class="fa fa-trash" aria-hidden="true"></i></td>
+							<td class="pure-txt-center">
+								<i class="fa fa-pencil" aria-hidden="true"></i>
+								<i class="fa fa-trash" aria-hidden="true"></i>
+							</td>
 						</tr>
 
 						<tr>
@@ -78,7 +83,10 @@
 							<td>공지사항</td>
 							<td class="pure-txt-center">관리자</td>
 							<td class="pure-txt-center">2018-03-24</td>
-							<td class="pure-txt-center"><i class="fa fa-pencil" aria-hidden="true"></i> / <i class="fa fa-trash" aria-hidden="true"></i></td>
+							<td class="pure-txt-center">
+								<i class="fa fa-pencil" aria-hidden="true"></i>
+								<i class="fa fa-trash" aria-hidden="true"></i>
+							</td>
 						</tr>
 
 						<tr>
@@ -86,14 +94,17 @@
 							<td>문의사항</td>
 							<td class="pure-txt-center">관리자</td>
 							<td class="pure-txt-center">2018-03-24</td>
-							<td class="pure-txt-center"><i class="fa fa-pencil" aria-hidden="true"></i> / <i class="fa fa-trash" aria-hidden="true"></i></td>
+							<td class="pure-txt-center">
+								<i class="fa fa-pencil" aria-hidden="true"></i>
+								<i class="fa fa-trash" aria-hidden="true"></i>
+							</td>
 						</tr>
 					</tbody>
 				</table><!-- pure-setting-list -->
 
 				<div class="pure-pagination">
-					<a href="#"><i class="fa fa-chevron-left"></i></a>
-					<a href="#"><i class="fa fa-angle-left"></i></a>
+					<a href="#">처음</a>
+					<a href="#">이전</a>
 
 					<a href="#">1</a>
 					<strong>2</strong>
@@ -101,12 +112,12 @@
 					<a href="#">4</a>
 					<a href="#">5</a>
 
-					<a href="#"><i class="fa fa-angle-right"></i></a>
-					<a href="#"><i class="fa fa-chevron-right"></i></a>
+					<a href="#">다음</a>
+					<a href="#">마지막</a>
 				</div><!-- pure-pagination -->
 
-				<div class="pure-buttons">
-					<a href="admin-board-write.html" class="pure-button">등록</a>
+				<div class="pure-setting-buttons">
+					<buttons class="pure-button pure-button-primary">등록</buttons>
 				</div><!-- pure-btn-group -->
 
 			</div><!-- .section -->
