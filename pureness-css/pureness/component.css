@@ -49,3 +49,63 @@
     border-right: 5px solid transparent;
     border-left: 5px solid transparent;
 }
+
+/* ---- list ---- */
+.pure-list {
+    padding-left: 15px;
+    line-height: 24px;
+}
+
+.pure-list-none {
+    list-style: none;
+    padding: 0;
+}
+
+/* ---- loader ---- */
+.pure-loader {
+    border: 10px solid #f3f3f3; /* Light grey */
+    border-top: 10px solid #3498db; /* Blue */
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    animation: spin 1.5s linear infinite;
+}
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
+/* ---- upload ---- */
+.pure-upload label {
+    display: inline-block;
+    margin: 0;
+    padding: 8px 10px;
+    color: #999;
+    font-size: inherit;
+    line-height: normal;
+    vertical-align: middle;
+    background-color: #FDFDFD;
+    cursor: pointer;
+    border: 1px solid #CCCCCC;
+    border-bottom-color: #E2E2E2;
+    border-radius: 2px;
+}
+
+.pure-upload input[type="text"] {
+    width: 20px;
+    height: 20px;
+    padding: 0;
+    clip: rect(0, 0, 0, 0);
+    border: 1px solid #000;
+}
+
+.pure-upload input[type="file"] { /* 파일 필드 숨기기 */
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    border: 0;
+}

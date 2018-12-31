@@ -17,8 +17,7 @@
 				padding: 0.6em 0.6em; 
 			}
 			.pure-division { 
-				padding: 2.4em 1.2em; 
-				font-weight: 100;
+				padding: 2.4em 1.2em;
 				border-top: 1px solid #000; 
 			}
 		</style>
@@ -26,48 +25,48 @@
 	<body>
 		<h1>Purecss Modal</h1>
 
-			<div class="pure-division">
-				<a href="#myModal" role="button" class="pure-button-primary pure-button" data-toggle="modal">
-					Launch Pure + Bootstrap Modal
-				</a>
+		<div class="pure-division">
+			<a href="#myModal" role="button" class="pure-button-primary pure-button" data-toggle="modal">
+				Launch Pure + Bootstrap Modal
+			</a>
+		</div>
+
+		<div id="myModal" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+			<div class="modal-header">
+				<h1 id="myModalLabel">A Bootstrap Modal with Pure</h1>
 			</div>
 
-			<div id="myModal" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-				<div class="modal-header">
-					<h1 id="myModalLabel">A Bootstrap Modal with Pure</h1>
-				</div>
+			<div class="modal-body">
+				<p>
+					This modal is launched by including <em>just</em> the <code>modal.css</code> and <code>modal.js</code> file from Bootstrap, and including Pure to drive all low-level styles. The result is a fully-functional Modal using just a fraction of the CSS.
+				</p>
 
-				<div class="modal-body">
-					<p>
-						This modal is launched by including <em>just</em> the <code>modal.css</code> and <code>modal.js</code> file from Bootstrap, and including Pure to drive all low-level styles. The result is a fully-functional Modal using just a fraction of the CSS.
-					</p>
+				<form class="pure-form pure-form-stacked">
+					<legend>A Stacked Form</legend>
 
-					<form class="pure-form pure-form-stacked">
-						<legend>A Stacked Form</legend>
+					<label for="email">Email</label>
+					<input id="email" type="text" placeholder="Email">
 
-						<label for="email">Email</label>
-						<input id="email" type="text" placeholder="Email">
+					<label for="password">Password</label>
+					<input id="password" type="password" placeholder="Password">
 
-						<label for="password">Password</label>
-						<input id="password" type="password" placeholder="Password">
+					<label for="state">State</label>
+					<select id="state">
+						<option>AL</option>
+						<option>CA</option>
+						<option>IL</option>
+					</select>
 
-						<label for="state">State</label>
-						<select id="state">
-							<option>AL</option>
-							<option>CA</option>
-							<option>IL</option>
-						</select>
+					<label class="pure-checkbox">
+						<input type="checkbox"> Remember me
+					</label>
+				</form>
+			</div>
 
-						<label class="pure-checkbox">
-							<input type="checkbox"> Remember me
-						</label>
-					</form>
-				</div>
-
-				<div class="modal-footer">
-					<button class="pure-button" data-dismiss="modal" aria-hidden="true">Close</button>
-					<button class="pure-button pure-button-primary">Submit</button>
-				</div>
+			<div class="modal-footer">
+				<button class="pure-button" data-dismiss="modal" aria-hidden="true">Close</button>
+				<button class="pure-button pure-button-primary">Submit</button>
+			</div>
 		</div>
 		
 		<script src="http://code.jquery.com/jquery-1.9.1.js"></script>

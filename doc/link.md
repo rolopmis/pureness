@@ -16,3 +16,6 @@
 
 ### 말풍선 자동 생성
 * http://www.cssarrowplease.com/
+
+### 로딩
+* https://loading.io/
