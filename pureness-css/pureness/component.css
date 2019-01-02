@@ -76,29 +76,28 @@
 }
 
 /* ---- upload ---- */
+.pure-upload {
+    max-width: 300px;
+}
+.pure-upload input[type="text"] {
+    display: inline-block;
+    margin: 0;
+    width: 100%;
+    max-width: 220px;
+    height: 37px;
+}
 .pure-upload label {
     display: inline-block;
     margin: 0;
-    padding: 8px 10px;
-    color: #999;
-    font-size: inherit;
-    line-height: normal;
+    width: 70px;
+    height: 37px;
+    line-height: 37px;
+    text-align: center;
     vertical-align: middle;
-    background-color: #FDFDFD;
-    cursor: pointer;
-    border: 1px solid #CCCCCC;
-    border-bottom-color: #E2E2E2;
+    background-color: #E6E6E6;
     border-radius: 2px;
+    cursor: pointer;
 }
-
-.pure-upload input[type="text"] {
-    width: 20px;
-    height: 20px;
-    padding: 0;
-    clip: rect(0, 0, 0, 0);
-    border: 1px solid #000;
-}
-
 .pure-upload input[type="file"] { /* 파일 필드 숨기기 */
     position: absolute;
     width: 1px;
