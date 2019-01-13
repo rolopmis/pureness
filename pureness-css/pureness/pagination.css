@@ -33,11 +33,7 @@
 }
 
 /* ---- pagination ---- */
-.pure-pagination-o {
-    text-align: center;
-    margin: 20px;
-}
-.pure-pagination-o a, .pure-pagination-o strong {
+.pure-pagination.block a, .pure-pagination.block strong {
     display: inline-block;
 	background: #FFF;
     margin-right: 3px;
@@ -52,14 +48,14 @@
     -moz-border-radius: 3px;
     border-radius: 3px;
 }
-.pure-pagination-o a:hover {
+.pure-pagination.block a:hover {
     background-color: #BEBEBE;
     color: #FFF;
 }
-.pure-pagination-o a:active {
+.pure-pagination.block a:active {
     background: #D5D5D5;
 }
-.pure-pagination-o strong {
+.pure-pagination.block strong {
     color: #000;
     background-color: #D5D5D5;
 }
