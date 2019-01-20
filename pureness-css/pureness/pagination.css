@@ -33,7 +33,7 @@
 }
 
 /* ---- pagination ---- */
-.pure-pagination.block a, .pure-pagination.block strong {
+.pure-pagination-o a, .pure-pagination-o strong {
     display: inline-block;
 	background: #FFF;
     margin-right: 3px;
@@ -48,14 +48,14 @@
     -moz-border-radius: 3px;
     border-radius: 3px;
 }
-.pure-pagination.block a:hover {
+.pure-pagination-o a:hover {
     background-color: #BEBEBE;
     color: #FFF;
 }
-.pure-pagination.block a:active {
+.pure-pagination-o a:active {
     background: #D5D5D5;
 }
-.pure-pagination.block strong {
+.pure-pagination-o strong {
     color: #000;
     background-color: #D5D5D5;
 }

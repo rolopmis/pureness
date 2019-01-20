@@ -4,6 +4,7 @@
 
 /* ---- common ---- */
 .pure-center { margin: 0 auto; }
+.pure-height { height: 36px; }
 .pure-img-responsive { max-width: 100%; height: auto; }
 .pure-wrap { padding: 24px 18px; }
 
