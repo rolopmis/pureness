@@ -2,7 +2,7 @@
  * Copyright Simpolor
  */
 
-/* ---- balloon ---- */
+/* ---- pure-balloon ---- */
 .pure-balloon {
     display: inline-block;
     position: relative;
@@ -50,7 +50,7 @@
     border-left: 5px solid transparent;
 }
 
-/* ---- list ---- */
+/* ---- pure-list ---- */
 .pure-list {
     padding-left: 15px;
     line-height: 24px;
@@ -75,20 +75,21 @@
     100% { transform: rotate(360deg); }
 }
 
-/* ---- upload ---- */
+/* ---- pure-upload ---- */
 .pure-upload {
-    /* max-width: 300px; */
+    width: 100%;
 }
 .pure-upload input[type="text"] {
     display: inline-block;
     margin: 0;
     width: 100%;
+    height: 37px;
 
 }
 .pure-upload label {
     display: inline-block;
-    margin: 0;
-    width: 100%;
+    margin: 0 0 0 5px;
+    width: 95%;
     height: 37px;
     line-height: 37px;
     text-align: center;
@@ -111,23 +112,84 @@
 /* ---- pure-search ---- */
 .pure-search {
     width: 100%;
-    margin: 20px 0;
     border: 1px solid #cbcbcb;
+    padding: 15px 0;
 }
 
 .pure-search select, .pure-search input, .pure-search button {
-    margin: 15px 0;
+    height: 37px;
 }
 
 .pure-search select {
-    margin-left: 5px;
-    width: 95%;
+    float: right;
+    margin-right: 5px;
+    width: 90%;
 }
 
 .pure-search input {
-    width: 99%;
+    width: 100%;
 }
 
 .pure-search button {
-    width: 95%;
+    float: left;
+    margin-left: 5px;
+    width: 80%;
+}
+
+/* ---- pure-pagination ---- */
+.pure-pagination {
+    text-align: center;
+    margin: 20px 0;
+}
+.pure-pagination a, .pure-pagination strong {
+    display: inline-block;
+    background: #FFF;
+    margin-right: 3px;
+    padding: 4px 13px;
+    font-size: 16px;
+    font-weight: lighter;
+    line-height: 20px;;
+    text-decoration: none;
+    color: #2E2E2E;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+}
+.pure-pagination a:hover {
+    background-color: #BEBEBE;
+    color: #FFF;
+}
+.pure-pagination a:active {
+    background: #D5D5D5;
+}
+.pure-pagination strong {
+    color: #1f8dd6;
+}
+
+/* ---- pagination ---- */
+.pure-pagination-o a, .pure-pagination-o strong {
+    display: inline-block;
+    background: #FFF;
+    margin-right: 3px;
+    padding: 7px 13px 3px;
+    font-weight: lighter;
+    line-height: 20px;;
+    text-decoration: none;
+    color: #2E2E2E;
+    border: 1px solid #BDBDBD;
+
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+}
+.pure-pagination-o a:hover {
+    background-color: #BEBEBE;
+    color: #FFF;
+}
+.pure-pagination-o a:active {
+    background: #D5D5D5;
+}
+.pure-pagination-o strong {
+    color: #000;
+    background-color: #D5D5D5;
 }
