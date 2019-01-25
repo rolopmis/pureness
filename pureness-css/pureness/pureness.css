@@ -4,12 +4,28 @@
 
 /* ---- common ---- */
 .pure-center { margin: 0 auto; }
-.pure-height { height: 36px; }
 .pure-img-responsive { max-width: 100%; height: auto; }
 .pure-wrap { padding: 24px 18px; }
+.pure-border { border: 1px solid #000; }
+
+/* ---- form ---- */
+.pure-form-fix input[type=text], .pure-form-fix button { height: 37px; !important; }
+.pure-form-none input[type=text], .pure-form-none button{
+    box-shadow: inset 0px 0px 0px #ddd !important;
+    border-radius: 0px !important;
+    border: 1px solid #ccc !important;
+}
+
+/* ---- button ---- */
+.pure-button-xsmall { font-size: 70%; }
+.pure-button-small { font-size: 85%; }
+.pure-button-large { font-size: 110%; }
+.pure-button-xlarge { font-size: 125%; }
+
 
 /* ---- display ---- */
 .pure-display-none { display: none; }
+
 
 /* ---- align ---- */
 .pure-txt-center { text-align: center; }
@@ -19,6 +35,7 @@
 .pure-vrt-top { vertical-align: top; }
 .pure-vrt-middle { vertical-align: middle; }
 .pure-vrt-bottom { vertical-align: bottom; }
+
 
 /* ---- width ---- */
 .pure-wd-5 { width: 5px; }
@@ -55,6 +72,10 @@
 .pure-ht-20 { height: 20px; }
 .pure-ht-25 { height: 25px; }
 .pure-ht-30 { height: 30px; }
+.pure-ht-35 { height: 35px; }
+.pure-ht-40 { height: 40px; }
+.pure-ht-45 { height: 45px; }
+.pure-ht-50 { height: 50px; }
 
 
 /* ---- margin ---- */

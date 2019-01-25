@@ -14,11 +14,8 @@
     * 세로에 대한 고정 사이즈가 필요할 듯
     * tiles, tile, box (라운딩 효과, 그늘) - common 작업
 * 박스형태의 레이아웃 
-* progress bar
-* 양식에 대한 FieldSet 작업
-* 이미지 파일 크기 지정 
+* progress bar 
 * Delete에 대한 이미지
-* 탭
 * 투표 템플릿
 * 찾아오는 길 템플릿
 * 사진 게시판 템플릿
@@ -28,15 +25,16 @@
 * 지도 및 검색
 
 ### doing
-* input 스타일 
-    * 라운딩, 그늘 등 ( pureness-round )
-    * Height에 대한 사이즈
+* 탭    
+* 양식에 대한 FieldSet 작업
 
 ### done
 * loading 작업
 * 파일업로드
     * 라운딩
     * 업로드 버튼 위치
+* Height에 대한 고정 사이즈
+* 라운딩 및 그늘 제거
 
 ### hold off
 * 말풍선
