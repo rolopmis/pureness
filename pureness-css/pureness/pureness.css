@@ -7,17 +7,27 @@
 .pure-img-responsive { max-width: 100%; height: auto; }
 .pure-wrap { padding: 24px 18px; }
 .pure-border { border: 1px solid #000; }
-.pure-title { font-weight: bold; font-size: large; vertical-align: middle; }
 
 /* ---- form ---- */
-.pure-form-fix input[type=text], .pure-form-fix button { height: 37px; !important; }
-.pure-form-none input[type=text], .pure-form-none button{
+.pure-form-title {
+    font-weight: bold;
+    font-size: large;
+    vertical-align: middle;
+    padding: 0 10px;
+}
+.pure-form-group .pure-g {
+    line-height: 37px; !important;
+    padding: 5px 0
+}
+.pure-form-group input[type=text], .pure-form-group button {
+    height: 37px; !important;
+}
+.pure-form-none input[type=text], .pure-form-none button {
     box-shadow: inset 0px 0px 0px #ddd !important;
     border-radius: 0px !important;
     border: 1px solid #ccc !important;
 }
-.pure-form-group>div { padding: 5px 0 }
-.pure-form-group>.pure-g input, .pure-form-group>.pure-g button { width: 100%; }
+.pure-form-full input, .pure-form-full button { width: 100%; }
 
 /* ---- button ---- */
 .pure-button-xsmall { font-size: 70%; }
