@@ -115,21 +115,17 @@
     border: 1px solid #cbcbcb;
     padding: 15px 0;
 }
-
 .pure-search select, .pure-search input, .pure-search button {
     height: 37px;
 }
-
 .pure-search select {
     float: right;
     margin-right: 5px;
     width: 90%;
 }
-
 .pure-search input {
     width: 100%;
 }
-
 .pure-search button {
     float: left;
     margin-left: 5px;
