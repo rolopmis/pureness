@@ -26,49 +26,6 @@
     color: #dd514c;
 }
 
-/* ---- setting-form ---- */
-.pure-setting-form {
-    width: 100%;
-}
-
-.pure-setting-form .pure-g {
-    margin-bottom: 10px;
-}
-
-.pure-setting-form input[type=text], .pure-setting-form button {
-    height: 40px;
-}
-
-.pure-setting-form button {
-    margin-left: 10px;
-}
-
-.pure-setting-form textarea {
-    width: 100%;
-    height: 350px;
-    resize: none;
-}
-
-.pure-setting-form b, .pure-setting-form span, .pure-setting-form small, .pure-setting-form label {
-    line-height: 40px;
-    font-weight: normal;
-}
-.pure-setting-form b {
-    font-size: 16px;
-    font-weight: bold;
-    padding-left: 30px;
-}
-
-.pure-setting-form small {
-    font-size: 12px;
-    color: #ff0000;
-    padding-left: 10px;
-}
-
-.pure-setting-form label {
-    font-size: 16px;
-}
-
 /* ---- pure-buttons ---- */
 .pure-setting-buttons {
     text-align: right;

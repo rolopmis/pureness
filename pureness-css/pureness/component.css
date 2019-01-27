@@ -114,6 +114,7 @@
 .pure-search {
     width: 100%;
     border: 1px solid #cbcbcb;
+    margin: 10px 0;
     padding: 15px 0;
 }
 .pure-search select, .pure-search input, .pure-search button {
@@ -163,7 +164,7 @@
     color: #1f8dd6;
 }
 
-/* ---- pagination ---- */
+/* ---- pure-pagination ---- */
 .pure-pagination-o a, .pure-pagination-o strong {
     display: inline-block;
     background: #FFF;
@@ -189,4 +190,35 @@
 .pure-pagination-o strong {
     color: #000;
     background-color: #D5D5D5;
+}
+
+/* ---- pure-tab ---- */
+.pure-tab {
+    width: 100%;
+    white-space: nowrap;
+}
+.pure-tab-list {
+    list-style: none;
+    z-index: -1;
+    margin: 0;
+    padding: 0;
+    border-bottom: 1px solid #777;
+}
+.pure-tab-item {
+    position: relative;
+    display: inline-block;
+    vertical-align: middle;
+}
+.pure-tab-selected {
+    position: relative;
+    z-index: 10;
+    border-top: 1px solid #777;
+    border-left: 1px solid #777;
+    border-right: 1px solid #777;
+}
+.pure-tab-link {
+    display: block;
+    text-decoration: none;
+    padding: .5em 1em;
+    color: #777;
 }
