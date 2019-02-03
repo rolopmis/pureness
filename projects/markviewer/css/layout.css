@@ -1,0 +1,45 @@
+#wrap {}
+#main {}
+#footer {}
+#section {}
+#aside {
+	height:auto;
+	line-height: 30px;
+	text-align: center;
+}
+#content {
+	padding: 30px;
+}
+
+@media (min-width: 48em) {
+	#section {
+		padding-left:200px;
+	}
+
+	#aside {
+		position:fixed;
+		top:0;
+		bottom:0;
+		width:200px;
+		margin-left:-200px;
+		border-right: 1px solid #000;
+	}
+
+	#content {
+
+	}
+
+	#footer {
+		margin-left: 200px;
+	}
+}
+
+@media (max-width: 48em) {
+	#section { }
+	
+	#aside { 
+		height:auto;
+	}
+	
+	#content {}
+}
