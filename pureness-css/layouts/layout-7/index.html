@@ -1,0 +1,86 @@
+<!doctype html>
+<html lang="ko">
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>purecss.io</title>
+		<link rel="stylesheet" href="https://unpkg.com/purecss@1.0.0/build/pure-min.css" integrity="sha384-" crossorigin="anonymous">
+	    <!--[if lte IE 8]>
+	        <link rel="stylesheet" href="https://unpkg.com/purecss@1.0.0/build/grids-responsive-old-ie-min.css">
+	    <![endif]-->
+	    <!--[if gt IE 8]><!-->
+	        <link rel="stylesheet" href="https://unpkg.com/purecss@1.0.0/build/grids-responsive-min.css">
+	    <!--<![endif]-->
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+		<link rel="stylesheet" href="css/stickyfooter.css">
+		<link rel="stylesheet" href="css/layout.css">
+		<script>
+            function myFunction() {
+                var x = document.getElementById("nav");
+                if (x.className === "topnav") {
+                    x.className += " responsive";
+                } else {
+                    x.className = "topnav";
+                }
+            }
+		</script>
+	</head>
+	<body>
+		<div id="wrap">
+			<div id="main">
+
+				<div id="header">
+					<div class="pure-g" style="text-align: center; line-height: 50px;">
+						<div class="pure-u-1">
+							<span>Header</span>
+						</div>
+					</div>
+				</div><!-- #header -->
+
+				<div id="nav" class="topnav">
+					<a href="#news" class="active">News</a>
+					<a href="#contact">Contact</a>
+					<a href="#about">About</a>
+					<a href="javascript:void(0);" class="icon" onclick="myFunction()">
+						<i class="fa fa-bars"></i>
+					</a>
+				</div><!-- #nav -->
+
+				<div id="section">
+					<div id="content">
+						<div class="pure-g" style="padding: 15px;">
+							<div class="pure-u-1-6" style="background:#EAF6F7">
+								<span >#EAF6F7</span>
+							</div>
+							<div class="pure-u-1-6" style="background:#C7E4DB">
+								<span>#C7E4DB</span>
+							</div>
+							<div class="pure-u-1-6" style="background:#8FBCA7">
+								<span>#8FBCA7</span>
+							</div>
+							<div class="pure-u-1-6" style="background:#959C67">
+								<span>#959C67</span>
+							</div>
+							<div class="pure-u-1-6" style="background:#EEC697">
+								<span>#EEC697</span>
+							</div>
+							<div class="pure-u-1-6" style="background:#EFE6DD">
+								<span>#EFE6DD</span>
+							</div>
+						</div>
+					</div><!-- #content -->
+				</div><!-- #section -->
+
+			</div><!-- #main -->
+		</div><!-- #wrap -->
+
+		<div id="footer">
+			<div class="pure-g" style="text-align: center; line-height: 50px;">
+				<div class="pure-u-1">
+					Footer
+				</div>
+			</div>
+		</div><!-- #footer -->
+
+	</body>
+</html>
