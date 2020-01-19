@@ -1,0 +1,92 @@
+/* ---- board-list ---- */
+.pure-board-list {
+    width: 100%;
+    border: 0px;
+}
+.pure-board-list th, .pure-board-list td {
+    border: 0px;
+}
+.pure-board-list th {
+    text-align: center;
+}
+.pure-board-list td {
+    font-weight: lighter;
+    border-bottom: 1px solid #CBCBCB;
+}
+.pure-board-list a {
+    text-decoration: none;
+}
+
+/* ---- pure-board-buttons ---- */
+.pure-board-buttons {
+    text-align: right;
+}
+
+
+
+/*#pagination ul {
+    list-style: none;
+    padding: 10px;
+    text-align: center;
+}
+
+#pagination li {
+    display: inline;
+    padding: 0 5px;
+}
+
+#pagination a {
+    text-decoration: none;
+    color: #000000;
+}
+
+#pagination a:hover {
+    color: #FF0000;
+}
+
+#pagination .active {
+    font-weight: bold;
+}
+
+#pagination .disabled {
+    font-weight: bold;
+    color: #808080;
+}*/
+
+/* ---- pure-pagination ---- */
+.pure-pagination {
+    margin: 20px 0;
+}
+
+.pure-pagination ul {
+    list-style: none;
+    text-align: center;
+}
+
+.pure-pagination li {
+    display: inline;
+    padding: 0 5px;
+}
+
+.pure-pagination a {
+    display: inline-block;
+    margin-right: 3px;
+    padding: 4px 13px;
+    font-size: 16px;
+    font-weight: lighter;
+    line-height: 20px;;
+    text-decoration: none;
+    color: #CBCBCB;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+}
+
+.pure-pagination a:hover {
+    color: #CBCBCB;
+}
+
+.pure-pagination .active>a {
+    font-weight: bold;
+    color: #000000;
+}
