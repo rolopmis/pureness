@@ -1,36 +1,25 @@
-/*
-    colors
-	#EAF6F7, #C7E4DB, #8FBCA7, #959C67, #EEC697, #EFE6DD
-*/
+* {margin:0;padding:0;}
+html, body {height: 100%;}
 
-#wrap {
-	background:#FFFFFF;
-}
-
-#main { 
-	
-}
-
-#footer {
-	background:#959C67;
-}
-
-#header {
-	height:50px; 
-	background:#C7E4DB;
-}
-
-#nav {
-	background:#8FBCA7;
-}
-
-#content {
-	height:auto;
-}
+#wrap { min-height: 100%; background: #FFFFF3; }
+#main { overflow: auto; padding-bottom: 50px;}
+#footer {position: relative; margin-top: -50px; height: 50px; clear:both; color: #B1C9E6; background: #566270; }
+#header { height: 50px; background: #A593E0; }
+#nav { background: #E0E3DA; }
+#content { height: auto; }
 
 body {
 	margin: 0;
 	font-family: Arial, Helvetica, sans-serif;
+}
+
+/*Opera Fix*/
+body:before {/* thanks to Maleika (Kohoutec)*/
+	content:"";
+	height:100%;
+	float:left;
+	width:0;
+	margin-top:-32767px;/* thank you Erik J - negate effect of float*/
 }
 
 .topnav {

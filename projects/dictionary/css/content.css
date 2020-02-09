@@ -1,3 +1,15 @@
+/* ---- pure-list ---- */
+.dictionary-main-buttons {
+    width: 100%;
+}
+
+.dictionary-main-buttons a {
+    display: block;
+    width: 50%;
+    line-height: 50px;
+    margin: 40px auto;
+}
+
 /* ---- board-list ---- */
 .pure-board-list {
     margin: 50px 0;
@@ -31,18 +43,6 @@
     margin-left: 10px;
 }
 
-/* ---- pure-list ---- */
-.dictionary-main-buttons {
-    width: 100%;
-}
-
-.dictionary-main-buttons a {
-    display: block;
-    width: 50%;
-    line-height: 50px;
-    margin: 30px auto;
-}
-
 /* ---- board-form ---- */
 .pure-board-form {
     width: 100%;
@@ -53,7 +53,8 @@
     text-align: center;
 }
 .pure-board-form input[type=radio] {
-    margin: 10px;
+    margin: 10px 0;
+    width: 30px;
 }
 .pure-board-form input[type=text] {
     margin: 10px 0;
