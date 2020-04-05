@@ -1,3 +1,8 @@
+/* ---- pure-board-buttons ---- */
+.pure-board-buttons {
+    text-align: right;
+}
+
 /* ---- board-list ---- */
 .pure-board-list {
     width: 100%;
@@ -10,62 +15,125 @@
     text-align: center;
 }
 .pure-board-list td {
-    font-weight: lighter;
     border-bottom: 1px solid #CBCBCB;
+    font-weight: lighter;
 }
 .pure-board-list a {
     text-decoration: none;
+    color: #000000;
+}
+.pure-board-list a:hover {
+    text-decoration: underline;
+}
+
+/* ---- board-search ---- */
+.pure-board-search {
+    width: 100%;
+    margin: 10px 0;
+    padding: 15px 0;
+    border: 1px solid #cbcbcb;
+}
+.pure-board-search select, .pure-board-search input, .pure-board-search button {
+    height: 37px;
+}
+.pure-board-search select {
+    float: right;
+    width: 90%;
+    margin-right: 5px;
+
+}
+.pure-board-search input {
+    width: 100%;
+}
+.pure-board-search button {
+    float: left;
+    width: 80%;
+    margin-left: 5px;
 }
 
 /* ---- board-form ---- */
 .pure-board-form {
     width: 100%;
 }
-.pure-board-form .title, .pure-board-form .content {
+.pure-board-form div {
     margin-bottom: 10px;
 }
-.pure-board-form .title>input {
+.pure-board-form>.title>input {
     width: 100%;
 }
-.pure-board-form .content>textarea {
+.pure-board-form>.content>textarea {
     width: 100%;
     height: 350px;
     resize: none;
+}
+.pure-board-form>.upload {
+    width: 100%;
+}
+.pure-board-form>.upload input[type="text"] {
+    display: inline-block;
+    width: 100%;
+    height: 37px;
+    margin: 0;
+
+}
+.pure-board-form>.upload label {
+    display: inline-block;
+    width: 99%;
+    height: 37px;
+    line-height: 37px;
+    margin: 0 0 0 5px;
+    background-color: #E6E6E6;
+    border-radius: 2px;
+    text-align: center;
+    vertical-align: middle;
+    cursor: pointer;
+}
+.pure-board-form>.upload input[type="file"] { /* 파일 필드 숨기기 */
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    padding: 0;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    border: 0;
 }
 
 /* ---- board-view ---- */
 .pure-board-view {
     width: 100%;
 }
-.pure-board-view .title, .pure-board-view .content {
-    pointer-events: none;
+.pure-board-view>div{
     margin-bottom: 10px;
 }
-.pure-board-view .title {
+.pure-board-view>.title, .pure-board-view>.content {
+    pointer-events: none;
+}
+.pure-board-view>.title {
     border-bottom: 1px solid #CCC;
 }
 .pure-board-view .title {
-    font-weight: bold;
     padding: .5em .6em;
+    font-weight: bold;
     vertical-align: middle;
     box-sizing: border-box;
 }
 .pure-board-view .date {
+    padding-top: 5px;
     font-weight: lighter;
     font-size: 10px;
-    padding-top: 5px;
     color: #7f8c8d;
 }
 .pure-board-view .content>p {
     width: 100%;
     min-height: 350px;
-    resize: none;
     margin: 0;
     padding: .5em .6em;
     border: 1px solid #CCC;
     border-radius: 4px;
     vertical-align: middle;
     box-sizing: border-box;
+    resize: none;
 }
 
 /* ---- reply-list ---- */
@@ -73,66 +141,84 @@
     width: 100%;
     margin: 50px 0;
 }
-
 .pure-reply-list {
     width: 100%;
-    margin-bottom: 20px;
-    border: 0px;
 }
-.pure-reply-list thead {
-    background: #FFF;
+.pure-reply-list ul {
+    list-style: none;
+    padding-left: 0;
+    border-top: 1px solid #CBCBCB;
 }
-.pure-reply-list thead th {
-    text-align: left;
-}
-.pure-reply-list tbody th, .pure-reply-list tbody td {
-    border: 0px;
-}
-.pure-reply-list tbody th {
-    text-align: center;
+.pure-reply-list li {
     border-bottom: 1px solid #CBCBCB;
 }
-
-.pure-reply-list tbody td {
-    font-weight: lighter;
-    border-bottom: 1px solid #CBCBCB;
-}
-.pure-reply-list a {
-    text-decoration: none;
-}
-.pure-reply-list textarea {
+.pure-reply-list .info {
     width: 100%;
-    height: 60px;
+    height: 30px;
+    line-height: 30px;
+    border-bottom: 1px dotted #CBCBCB;
+}
+.pure-reply-list .register {
+    font-weight: bold;
+}
+.pure-reply-list .date {
+    padding-top: 5px;
+    font-weight: lighter;
+    font-size: 10px;
+    color: #7f8c8d;
+}
+.pure-reply-list .content {
+    min-height: 70px
+}
+.pure-reply-list .content>p {
+    margin: 0px;
+    padding: 5px;
+}
+.pure-reply-list .content>textarea {
+    width: 100%;
+    height: 80px;
+    margin: 5px 0;
     resize: none;
 }
-.pure-reply-list .edit {
-    color: #1f8dd6;
+.pure-reply-list .buttons {
+    width: 100%;
+    height: 40px;
+    text-align: right;
 }
-.pure-reply-list .delete {
-    color: #dd514c;
+.pure-reply-list .buttons>.pure-button {
+    width: 50px;
+    height: 30px;
+    padding: 0;
 }
 
-/* ---- reply-form ---- */
-.pure-reply-form {
+/* ---- reply-list ---- */
+.pure-reply-register {
     width: 100%;
     margin-top: 50px;
 }
-.pure-reply-form .title, .pure-reply-form .content {
-    margin-bottom: 10px;
+.pure-reply-register .info {
+    width: 100%;
+    height: 30px;
+    line-height: 30px;
+    border-bottom: 1px solid #CBCBCB;
 }
-.pure-reply-form .title>span {
+.pure-reply-register .register {
     font-weight: bold;
 }
-.pure-reply-form .content>textarea {
+.pure-reply-register .content>textarea {
     width: 100%;
-    height: 90px;
+    height: 80px;
+    margin: 5px 0;
     resize: none;
 }
-.pure-reply-form .button {
+.pure-reply-register .buttons {
+    width: 100%;
+    height: 40px;
     text-align: right;
+}
+.pure-reply-register .buttons>.pure-button {
+    width: 50px;
+    height: 30px;
+    padding: 0;
 }
 
-/* ---- pure-board-buttons ---- */
-.pure-board-buttons {
-    text-align: right;
-}

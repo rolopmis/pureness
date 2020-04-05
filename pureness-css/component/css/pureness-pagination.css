@@ -1,0 +1,80 @@
+/*
+ * Copyright Simpolor
+ */
+
+/* ---- pure-pagination ---- */
+.pure-pagination {
+    margin: 30px 0;
+}
+
+.pure-pagination ul {
+    list-style: none;
+    text-align: center;
+}
+
+.pure-pagination li {
+    display: inline;
+    padding: 0 5px;
+}
+
+.pure-pagination a {
+    display: inline-block;
+    margin-right: 3px;
+    padding: 4px 13px;
+    font-size: 16px;
+    font-weight: lighter;
+    line-height: 20px;
+    color: #2E2E2E;
+
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+}
+
+.pure-pagination a:hover {
+    text-decoration: underline;
+}
+
+.pure-pagination .active>a {
+    color: #1f8dd6;
+    border: 1px solid #CBCBCB;
+}
+
+/* ---- pure-o-pagination ---- */
+.pure-o-pagination {
+    margin: 30px 0;
+}
+
+.pure-o-pagination ul {
+    list-style: none;
+    text-align: center;
+}
+
+.pure-o-pagination li {
+    display: inline;
+    padding: 0 5px;
+}
+
+.pure-o-pagination a {
+    display: inline-block;
+    margin-right: 3px;
+    padding: 4px 13px;
+    font-size: 16px;
+    font-weight: lighter;
+    line-height: 20px;
+    color: #2E2E2E;
+    border: 1px solid #CBCBCB;
+
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+}
+
+.pure-o-pagination a:hover {
+    text-decoration: underline;
+}
+
+.pure-o-pagination .active>a {
+    color: #000;
+    background-color: #D5D5D5;
+}
