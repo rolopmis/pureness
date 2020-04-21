@@ -1,7 +1,7 @@
 * {margin:0;padding:0;}
 html, body {height: 100%;}
 
-#wrap { min-height: 100%; background: #FFFFF3; }
+#wrap { min-height: 100%; background: #FFFFFF; }
 #main { overflow: auto; padding-bottom: 50px;}
 #footer {position: relative; margin-top: -50px; height: 50px; clear:both; color: #B1C9E6; background: #566270; }
 #header { height: 50px; background: #A593E0; }

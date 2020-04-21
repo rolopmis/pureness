@@ -10,61 +10,72 @@
     margin: 40px auto;
 }
 
-/* ---- board-list ---- */
-.pure-board-list {
+/* ---- dictionary-list ---- */
+.dictionary-list {
     margin: 50px 0;
     width: 100%;
     border: 0px;
 }
-.pure-board-list tbody {
+.dictionary-list tbody {
     border-top: 1px solid #CBCBCB;
 }
-.pure-board-list th, .pure-board-list td {
+.dictionary-list th, .dictionary-list td {
     border: 0px;
 }
-.pure-board-list th {
+.dictionary-list th {
     text-align: center;
 }
-.pure-board-list td {
+.dictionary-list td {
     font-weight: lighter;
     border-bottom: 1px solid #CBCBCB;
 }
-.pure-board-list a {
+.dictionary-list a {
     text-decoration: none;
 }
 
-/* ---- pure-board-buttons ---- */
-.pure-board-buttons {
-    text-align: right;
-    margin: 30px 10px;
-}
-.pure-button {
-    padding: 10px 20px;
-    margin-left: 10px;
-}
-
-/* ---- board-form ---- */
-.pure-board-form {
+/* ---- dictionary-form ---- */
+.dictionary-form {
     width: 100%;
     margin: 30px 0;
 }
-.pure-board-form div {
+.dictionary-form div {
     margin: 20px 10px;
     text-align: center;
 }
-.pure-board-form input[type=radio] {
+.dictionary-form input[type=radio] {
     margin: 10px 0;
     width: 30px;
 }
-.pure-board-form input[type=text] {
+.dictionary-form input[type=text] {
     margin: 10px 0;
     width: 100%;
     height: 50px;
 }
-.pure-board-form textarea {
+.dictionary-form textarea {
     margin: 10px 0;
     width: 100%;
     height: 100px;
+}
+
+/* ---- dictionary-view ---- */
+.dictionary-view {
+    width: 100%;
+    margin: 30px 0;
+}
+.dictionary-view div {
+    padding: 10px;
+    border-bottom: 1px solid #CBCBCB;
+}
+.dictionary-view span {
+    display: block;
+    font-weight: bold;
+    font-size: 18px;
+}
+.dictionary-view p {
+    display: block;
+    padding: 10px 0;
+    width: 100%;
+    min-height: 50px;
 }
 
 /* ---- pure-pagination ---- */
@@ -103,4 +114,15 @@
 .pure-pagination .active>a {
     font-weight: bold;
     color: #000000;
+}
+
+/* ---- dictionary-buttons ---- */
+.pure-buttons {
+    text-align: right;
+    margin: 30px 10px;
+}
+.pure-button {
+    font-weight: bold;
+    padding: 10px 20px;
+    margin-left: 10px;
 }
