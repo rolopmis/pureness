@@ -1,0 +1,32 @@
+/*
+ * Copyright Simpolor
+ */
+
+/* ---- pure-button ---- */
+.pure-double-button {
+    padding: 1em 2em;
+}
+
+.pure-triple-button {
+    padding: 1.5em 3em;
+}
+
+.pure-quad-button {
+    padding: 2em 4em;
+}
+
+.pure-125-button {
+    font-size: 125%;
+}
+
+.pure-150-button {
+    font-size: 150%;
+}
+
+.pure-175-button {
+    font-size: 175%;
+}
+
+.pure-radius-button {
+    border-radius: 10px;
+}
