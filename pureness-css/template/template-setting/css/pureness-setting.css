@@ -1,32 +1,32 @@
 /* ---- setting-list ---- */
-.pure-setting-list {
+.pureness-setting-list {
     width: 100%;
 }
 
-.pure-setting-list th {
+.pureness-setting-list th {
     text-align: center;
 }
 
-.pure-setting-list td {
+.pureness-setting-list td {
     font-weight: lighter;
 }
 
-.pure-setting-list a {
+.pureness-setting-list a {
     text-decoration: none;
 }
-.pure-setting-list i {
+.pureness-setting-list i {
     padding: 0 10px;
 }
 
-.pure-setting-list .edit {
+.pureness-setting-list .edit {
     color: #1f8dd6;
 }
 
-.pure-setting-list .delete {
+.pureness-setting-list .delete {
     color: #dd514c;
 }
 
 /* ---- pure-buttons ---- */
-.pure-setting-buttons {
+.pureness-setting-buttons {
     text-align: right;
 }

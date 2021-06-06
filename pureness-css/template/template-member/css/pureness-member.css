@@ -1,19 +1,19 @@
 /* ---- member-form ---- */
-.pure-member-form {
+.pureness-member-form {
     width: 100%;
     border: 0px;
 }
-.pure-member-form .pure-g {
+.pureness-member-form .pureness-g {
     margin-bottom: 10px;
 }
-.pure-member-form input, .pure-member-form button, .pure-member-form span {
+.pureness-member-form input, .pureness-member-form button, .pureness-member-form span {
     height: 40px;
 }
-.pure-member-form .title {
+.pureness-member-form .title {
     font-weight: bold;
     line-height: 24px;
 }
-.pure-member-form .error {
+.pureness-member-form .error {
     font-weight: lighter;
     font-size: 14px;
     line-height: 24px;
@@ -21,21 +21,21 @@
 }
 
 /* ---- member-info ---- */
-.pure-member-info {
+.pureness-member-info {
     width: 100%;
     border: 0px;
 }
-.pure-member-info .pure-g {
+.pureness-member-info .pureness-g {
     margin-bottom: 10px;
 }
-.pure-member-info button, .pure-member-info-form span {
+.pureness-member-info button, .pureness-member-info-form span {
     height: 40px;
 }
-.pure-member-info .title {
+.pureness-member-info .title {
     font-weight: bold;
     line-height: 24px;
 }
-.pure-member-info .info {
+.pureness-member-info .info {
     display: block;
     border-bottom: 1px solid #CCC;
     padding: 8px 9px;
@@ -43,7 +43,7 @@
     box-sizing: border-box;
     color: #2E2E2E;
 }
-.pure-member-info .complete {
+.pureness-member-info .complete {
     display: block;
     border-bottom: 1px solid #CCC;
     padding: 8px 9px;
@@ -55,46 +55,46 @@
 }
 
 /* ---- member-buttons ---- */
-.pure-member-buttons {
+.pureness-member-buttons {
     text-align: center;
     margin-top: 20px;
 }
-.pure-member-buttons .full {
+.pureness-member-buttons .full {
     width: 100%;
     height: 40px;
 }
 
 /* ---- member-links ---- */
-.pure-member-links {
+.pureness-member-links {
     text-align: center;
     margin-top: 20px;
 }
-.pure-member-links a {
+.pureness-member-links a {
     color: #353535;
     text-decoration: none;
     padding-left: 20px;
 }
 
 /* ---- member-list ---- */
-.pure-member-list {
+.pureness-member-list {
     width: 100%;
     border: 0px;
 }
-.pure-member-list th, .pure-member-list td {
+.pureness-member-list th, .pureness-member-list td {
     border: 0px;
 }
-.pure-member-list th {
+.pureness-member-list th {
     text-align: center;
 }
-.pure-member-list td {
+.pureness-member-list td {
     font-weight: lighter;
     border-bottom: 1px solid #CBCBCB;
 }
-.pure-member-list a {
+.pureness-member-list a {
     text-decoration: none;
 }
 
 /* ---- member-buttons ---- */
-.pure-member-buttons {
+.pureness-member-buttons {
     text-align: right;
 }

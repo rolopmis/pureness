@@ -3,21 +3,21 @@
  */
 
 /* ---- pure-pagination ---- */
-.pure-pagination {
+.pureness-pagination {
     margin: 30px 0;
 }
 
-.pure-pagination ul {
+.pureness-pagination ul {
     list-style: none;
     text-align: center;
 }
 
-.pure-pagination li {
+.pureness-pagination li {
     display: inline;
     padding: 0 5px;
 }
 
-.pure-pagination a {
+.pureness-pagination a {
     display: inline-block;
     margin-right: 3px;
     padding: 4px 13px;
@@ -31,31 +31,31 @@
     border-radius: 3px;
 }
 
-.pure-pagination a:hover {
+.pureness-pagination a:hover {
     text-decoration: underline;
 }
 
-.pure-pagination .active>a {
+.pureness-pagination .active>a {
     color: #1f8dd6;
     border: 1px solid #CBCBCB;
 }
 
 /* ---- pure-o-pagination ---- */
-.pure-o-pagination {
+.pureness-o-pagination {
     margin: 30px 0;
 }
 
-.pure-o-pagination ul {
+.pureness-o-pagination ul {
     list-style: none;
     text-align: center;
 }
 
-.pure-o-pagination li {
+.pureness-o-pagination li {
     display: inline;
     padding: 0 5px;
 }
 
-.pure-o-pagination a {
+.pureness-o-pagination a {
     display: inline-block;
     margin-right: 3px;
     padding: 4px 13px;
@@ -70,11 +70,11 @@
     border-radius: 3px;
 }
 
-.pure-o-pagination a:hover {
+.pureness-o-pagination a:hover {
     text-decoration: underline;
 }
 
-.pure-o-pagination .active>a {
+.pureness-o-pagination .active>a {
     color: #000;
     background-color: #D5D5D5;
 }

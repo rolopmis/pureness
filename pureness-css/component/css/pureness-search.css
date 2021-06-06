@@ -2,25 +2,25 @@
  * Copyright Simpolor
  */
 
-/* ---- pure-search ---- */
-.pure-search {
+/* ---- pureness-search ---- */
+.pureness-search {
     width: 100%;
     border: 1px solid #cbcbcb;
     margin: 10px 0;
     padding: 15px 0;
 }
-.pure-search select, .pure-search input, .pure-search button {
+.pureness-search select, .pureness-search input, .pureness-search button {
     height: 37px;
 }
-.pure-search select {
+.pureness-search select {
     float: right;
     margin-right: 5px;
     width: 90%;
 }
-.pure-search input {
+.pureness-search input {
     width: 100%;
 }
-.pure-search button {
+.pureness-search button {
     float: left;
     margin-left: 5px;
     width: 80%;

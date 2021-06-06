@@ -1,82 +1,82 @@
-/* ---- pure-board-buttons ---- */
-.pure-board-buttons {
+/* ---- pureness-board-buttons ---- */
+.pureness-board-buttons {
     text-align: right;
 }
 
 /* ---- board-list ---- */
-.pure-board-list {
+.pureness-board-list {
     width: 100%;
     border: 0px;
 }
-.pure-board-list th, .pure-board-list td {
+.pureness-board-list th, .pureness-board-list td {
     border: 0px;
 }
-.pure-board-list th {
+.pureness-board-list th {
     text-align: center;
 }
-.pure-board-list td {
+.pureness-board-list td {
     border-bottom: 1px solid #CBCBCB;
     font-weight: lighter;
 }
-.pure-board-list a {
+.pureness-board-list a {
     text-decoration: none;
     color: #000000;
 }
-.pure-board-list a:hover {
+.pureness-board-list a:hover {
     text-decoration: underline;
 }
 
 /* ---- board-search ---- */
-.pure-board-search {
+.pureness-board-search {
     width: 100%;
     margin: 10px 0;
     padding: 15px 0;
     border: 1px solid #cbcbcb;
 }
-.pure-board-search select, .pure-board-search input, .pure-board-search button {
+.pureness-board-search select, .pureness-board-search input, .pureness-board-search button {
     height: 37px;
 }
-.pure-board-search select {
+.pureness-board-search select {
     float: right;
     width: 90%;
     margin-right: 5px;
 
 }
-.pure-board-search input {
+.pureness-board-search input {
     width: 100%;
 }
-.pure-board-search button {
+.pureness-board-search button {
     float: left;
     width: 80%;
     margin-left: 5px;
 }
 
 /* ---- board-form ---- */
-.pure-board-form {
+.pureness-board-form {
     width: 100%;
 }
-.pure-board-form div {
+.pureness-board-form div {
     margin-bottom: 10px;
 }
-.pure-board-form>.title>input {
+.pureness-board-form>.title>input {
     width: 100%;
 }
-.pure-board-form>.content>textarea {
+.pureness-board-form>.content>textarea {
     width: 100%;
     height: 350px;
     resize: none;
 }
-.pure-board-form>.upload {
+.pureness-board-form>.upload {
     width: 100%;
 }
-.pure-board-form>.upload input[type="text"] {
+.pureness-board-form>.upload input[type="text"] {
     display: inline-block;
     width: 100%;
     height: 37px;
     margin: 0;
 
 }
-.pure-board-form>.upload label {
+.pureness-board-form>.upload label {
     display: inline-block;
     width: 99%;
     height: 37px;
@@ -88,7 +88,7 @@
     vertical-align: middle;
     cursor: pointer;
 }
-.pure-board-form>.upload input[type="file"] { /* 파일 필드 숨기기 */
+.pureness-board-form>.upload input[type="file"] { /* 파일 필드 숨기기 */
     position: absolute;
     width: 1px;
     height: 1px;
@@ -100,31 +100,31 @@
 }
 
 /* ---- board-view ---- */
-.pure-board-view {
+.pureness-board-view {
     width: 100%;
 }
-.pure-board-view>div{
+.pureness-board-view>div{
     margin-bottom: 10px;
 }
-.pure-board-view>.title, .pure-board-view>.content {
+.pureness-board-view>.title, .pureness-board-view>.content {
     pointer-events: none;
 }
-.pure-board-view>.title {
+.pureness-board-view>.title {
     border-bottom: 1px solid #CCC;
 }
-.pure-board-view .title {
+.pureness-board-view .title {
     padding: .5em .6em;
     font-weight: bold;
     vertical-align: middle;
     box-sizing: border-box;
 }
-.pure-board-view .date {
+.pureness-board-view .date {
     padding-top: 5px;
     font-weight: lighter;
     font-size: 10px;
     color: #7f8c8d;
 }
-.pure-board-view .content>p {
+.pureness-board-view .content>p {
     width: 100%;
     min-height: 350px;
     margin: 0;
@@ -137,86 +137,86 @@
 }
 
 /* ---- reply-list ---- */
-.pure-reply {
+.pureness-reply {
     width: 100%;
     margin: 50px 0;
 }
-.pure-reply-list {
+.pureness-reply-list {
     width: 100%;
 }
-.pure-reply-list ul {
+.pureness-reply-list ul {
     list-style: none;
     padding-left: 0;
     border-top: 1px solid #CBCBCB;
 }
-.pure-reply-list li {
+.pureness-reply-list li {
     border-bottom: 1px solid #CBCBCB;
 }
-.pure-reply-list .info {
+.pureness-reply-list .info {
     width: 100%;
     height: 30px;
     line-height: 30px;
     border-bottom: 1px dotted #CBCBCB;
 }
-.pure-reply-list .register {
+.pureness-reply-list .register {
     font-weight: bold;
 }
-.pure-reply-list .date {
+.pureness-reply-list .date {
     padding-top: 5px;
     font-weight: lighter;
     font-size: 10px;
     color: #7f8c8d;
 }
-.pure-reply-list .content {
+.pureness-reply-list .content {
     min-height: 70px
 }
-.pure-reply-list .content>p {
+.pureness-reply-list .content>p {
     margin: 0px;
     padding: 5px;
 }
-.pure-reply-list .content>textarea {
+.pureness-reply-list .content>textarea {
     width: 100%;
     height: 80px;
     margin: 5px 0;
     resize: none;
 }
-.pure-reply-list .buttons {
+.pureness-reply-list .buttons {
     width: 100%;
     height: 40px;
     text-align: right;
 }
-.pure-reply-list .buttons>.pure-button {
+.pureness-reply-list .buttons>.pureness-button {
     width: 50px;
     height: 30px;
     padding: 0;
 }
 
 /* ---- reply-list ---- */
-.pure-reply-register {
+.pureness-reply-register {
     width: 100%;
     margin-top: 50px;
 }
-.pure-reply-register .info {
+.pureness-reply-register .info {
     width: 100%;
     height: 30px;
     line-height: 30px;
     border-bottom: 1px solid #CBCBCB;
 }
-.pure-reply-register .register {
+.pureness-reply-register .register {
     font-weight: bold;
 }
-.pure-reply-register .content>textarea {
+.pureness-reply-register .content>textarea {
     width: 100%;
     height: 80px;
     margin: 5px 0;
     resize: none;
 }
-.pure-reply-register .buttons {
+.pureness-reply-register .buttons {
     width: 100%;
     height: 40px;
     text-align: right;
 }
-.pure-reply-register .buttons>.pure-button {
+.pureness-reply-register .buttons>.pureness-button {
     width: 50px;
     height: 30px;
     padding: 0;

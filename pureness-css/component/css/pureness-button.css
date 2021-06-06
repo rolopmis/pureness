@@ -3,30 +3,34 @@
  */
 
 /* ---- pure-button ---- */
-.pure-double-button {
+.pureness-button-double {
     padding: 1em 2em;
 }
 
-.pure-triple-button {
+.pureness-button-triple {
     padding: 1.5em 3em;
 }
 
-.pure-quad-button {
+.pureness-button-quad {
     padding: 2em 4em;
 }
 
-.pure-125-button {
+.pureness-button-125p {
     font-size: 125%;
 }
 
-.pure-150-button {
+.pureness-button-150p {
     font-size: 150%;
 }
 
-.pure-175-button {
+.pureness-button-175p {
     font-size: 175%;
 }
 
-.pure-radius-button {
+.pureness-button-200p {
+    font-size: 200%;
+}
+
+.pureness-radius-button {
     border-radius: 10px;
 }

@@ -2,24 +2,24 @@
  * Copyright Simpolor
  */
 
-/* ---- pure-tab ---- */
-.pure-tab {
+/* ---- pureness-tab ---- */
+.pureness-tab {
     width: 100%;
     white-space: nowrap;
 }
-.pure-tab-list {
+.pureness-tab-list {
     list-style: none;
     z-index: -1;
     margin: 0;
     padding: 0;
     border-bottom: 1px solid #777;
 }
-.pure-tab-item {
+.pureness-tab-item {
     position: relative;
     display: inline-block;
     vertical-align: middle;
 }
-.pure-tab-selected {
+.pureness-tab-selected {
     position: relative;
     z-index: 10;
     border-top: 1px solid #777;
@@ -27,7 +27,7 @@
     border-right: 1px solid #777;
     border-radius: 10px 10px 0 0
 }
-.pure-tab-link {
+.pureness-tab-link {
     display: block;
     text-decoration: none;
     padding: .5em 1em;
