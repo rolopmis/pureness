@@ -50,8 +50,8 @@
 
 				<table class="pure-table pure-table-horizontal pureness-setting-list">
 					<colgroup>
-						<col width="5%" />
-						<col width="50%" />
+						<col width="10%" />
+						<col width="45%" />
 						<col width="13%" />
 						<col width="17%" />
 						<col width="15%" />
@@ -59,7 +59,7 @@
 
 					<thead>
 						<tr>
-							<th></th>
+							<th>번호</th>
 							<th>게시판명</th>
 							<th>생성자</th>
 							<th>생성일</th>
@@ -69,33 +69,33 @@
 
 					<tbody>
 						<tr>
-							<td class="pureness-txt-center">1</td>
-							<td>자유게시판</td>
-							<td class="pureness-txt-center">관리자</td>
-							<td class="pureness-txt-center">2018-03-24</td>
-							<td class="pureness-txt-center">
+							<td>1</td>
+							<td class="title">자유게시판</td>
+							<td>관리자</td>
+							<td>2018-03-24</td>
+							<td>
 								<i class="fa fa-pencil" aria-hidden="true"></i>
 								<i class="fa fa-trash" aria-hidden="true"></i>
 							</td>
 						</tr>
 
 						<tr>
-							<td class="pureness-txt-center">2</td>
-							<td>공지사항</td>
-							<td class="pureness-txt-center">관리자</td>
-							<td class="pureness-txt-center">2018-03-24</td>
-							<td class="pureness-txt-center">
+							<td>2</td>
+							<td class="title">공지사항</td>
+							<td>관리자</td>
+							<td>2018-03-24</td>
+							<td>
 								<i class="fa fa-pencil" aria-hidden="true"></i>
 								<i class="fa fa-trash" aria-hidden="true"></i>
 							</td>
 						</tr>
 
 						<tr>
-							<td class="pureness-txt-center">3</td>
-							<td>문의사항</td>
-							<td class="pureness-txt-center">관리자</td>
-							<td class="pureness-txt-center">2018-03-24</td>
-							<td class="pureness-txt-center">
+							<td>3</td>
+							<td class="title">문의사항</td>
+							<td>관리자</td>
+							<td>2018-03-24</td>
+							<td>
 								<i class="fa fa-pencil" aria-hidden="true"></i>
 								<i class="fa fa-trash" aria-hidden="true"></i>
 							</td>
@@ -103,19 +103,21 @@
 					</tbody>
 				</table><!-- pure-setting-list -->
 
-				<div class="pureness-pagination">
-					<a href="#">처음</a>
-					<a href="#">이전</a>
+				<div id="pagination" class="pureness-pagination">
+					<ul>
+						<li class=""><a href="#"><i class="fa fa-angle-double-left"></i></a></li>
+						<li class=""><a href="#"><i class="fa fa-angle-left"></i></a></li>
 
-					<a href="#">1</a>
-					<strong>2</strong>
-					<a href="#">3</a>
-					<a href="#">4</a>
-					<a href="#">5</a>
+						<li class="active"><a>1</a></li>
+						<li><a>2</a></li>
+						<li><a>3</a></li>
+						<li><a>4</a></li>
+						<li><a>5</a></li>
 
-					<a href="#">다음</a>
-					<a href="#">마지막</a>
-				</div><!-- pure-pagination -->
+						<li class=""><a href="#"><i class="fa fa-angle-right"></i></a></li>
+						<li class="disabled"><a href="#"><i class="fa fa-angle-double-right"></i></a></li>
+					</ul>
+				</div><!-- #pagination -->
 
 				<div class="pureness-setting-buttons">
 					<buttons class="pure-button pure-button-primary">등록</buttons>

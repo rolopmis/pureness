@@ -3,7 +3,7 @@
     width: 100%;
 }
 
-.pureness-setting-list th {
+.pureness-setting-list th, td {
     text-align: center;
 }
 
@@ -16,6 +16,10 @@
 }
 .pureness-setting-list i {
     padding: 0 10px;
+}
+
+.pureness-setting-list .title {
+    text-align: left;
 }
 
 .pureness-setting-list .edit {

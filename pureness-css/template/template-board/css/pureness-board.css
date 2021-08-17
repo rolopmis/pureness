@@ -17,6 +17,7 @@
 .pureness-board-list td {
     border-bottom: 1px solid #CBCBCB;
     font-weight: lighter;
+    text-align: center;
 }
 .pureness-board-list a {
     text-decoration: none;
@@ -24,6 +25,9 @@
 }
 .pureness-board-list a:hover {
     text-decoration: underline;
+}
+.pureness-board-list .title {
+    text-align: left;
 }
 
 /* ---- board-search ---- */
@@ -110,6 +114,7 @@
     pointer-events: none;
 }
 .pureness-board-view>.title {
+    border-top: 1px solid #CCC;
     border-bottom: 1px solid #CCC;
 }
 .pureness-board-view .title {
