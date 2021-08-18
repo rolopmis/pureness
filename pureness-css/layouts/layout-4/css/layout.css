@@ -1,59 +1,26 @@
-/*
-    colors
-	#EAF6F7, #C7E4DB, #8FBCA7, #959C67, #EEC697, #EFE6DD
-*/
-
-#wrap {
-	background:#EFE6DD;
-}
-
-#main {}
-
-#footer {
-	background:#959C67;
-}
-
-#header {
-	height:50px;
-	background:#C7E4DB;
-}
-
-#section {
-	
-}
-
-#aside {
-	height:auto;
-	background:#EEC697;
-}
-
-#content {}
+#wrap { background: #FAFAFA; }
+#main { }
+#footer { background: #848484; }
+#header { height: 50px; background: #A4A4A4; }
+#section { }
+#aside { height: auto; background: #D8D8D8; }
+#content { padding: 30px 15px; }
 
 @media (min-width: 48em) {
-	#section {
-		padding-left:200px;
-	}
-	
+	#section { padding-left: 300px; }
 	#aside {
 		position:fixed; 
 		top:0; 
 		bottom:0; 
 		margin-top:50px;
-		margin-left:-200px; 
-		width:200px; 
-		background:#EEC697;
+		margin-left:-300px;
+		width:300px;
 	}
-	
 	#content { }
 }
 
 @media (max-width: 48em) {
 	#section { }
-	
-	#aside { 
-		height:auto; 
-		background:#EEC697;
-	}
-	
+	#aside { height: auto; }
 	#content {}
 }

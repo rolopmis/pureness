@@ -1,21 +1,12 @@
-#wrap {}
-#main {}
-#footer {}
-#section {}
-#aside {
-	height:auto;
-	line-height: 30px;
-	text-align: center;
-}
-#content {
-	padding: 30px;
-}
+#wrap { }
+#main { }
+#footer { text-align: center; }
+#section { }
+#aside { height:auto; line-height: 30px; text-align: center; }
+#content { padding: 30px 15px; }
 
 @media (min-width: 48em) {
-	#section {
-		padding-left:200px;
-	}
-
+	#section { padding-left: 200px; }
 	#aside {
 		position:fixed;
 		top:0;
@@ -24,22 +15,12 @@
 		margin-left:-200px;
 		border-right: 1px solid #000;
 	}
-
-	#content {
-
-	}
-
-	#footer {
-		margin-left: 200px;
-	}
+	#content { }
+	#footer { margin-left: 200px; }
 }
 
 @media (max-width: 48em) {
 	#section { }
-	
-	#aside { 
-		height:auto;
-	}
-	
+	#aside { height:auto; }
 	#content {}
 }
