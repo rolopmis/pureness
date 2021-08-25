@@ -5,7 +5,8 @@ body { margin: 0; }
 #footer { background: #848484; }
 #header { height:50px; background: #A4A4A4; }
 #nav { background: #BDBDBD; }
-#content { height:auto; padding: 30px 15px; }
+#content { }
+#main-section { height:auto; padding: 30px 15px; }
 
 .topnav {
 	overflow: hidden;

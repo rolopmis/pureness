@@ -2,12 +2,12 @@
 #main {}
 #footer { background: #848484; }
 #header { height: 50px; background: #A4A4A4; }
-#section { }
+#content {  }
 #aside { height: auto; background: #D8D8D8; }
-#content { padding: 30px 15px; }
+#main-section { padding: 30px 15px;}
 
 @media (min-width: 48em) {
-	#section { padding-left: 300px; }
+	#content { padding-left: 300px; }
 	#aside {
 		position:fixed; 
 		top:0; 
@@ -16,12 +16,12 @@
 		margin-left:-300px;
 		width:300px;
 	}
-	#content { }
+	#main-section { }
 	#footer { margin-left: 300px; }
 }
 
 @media (max-width: 48em) {
-	#section { }
-	#aside { height: auto; }
 	#content { }
+	#aside { height: auto; }
+	#main-section { }
 }
