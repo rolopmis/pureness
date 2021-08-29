@@ -154,7 +154,7 @@
     resize: none;
 }
 
-/* ---- reply-list ---- */
+/* ---- pureness-reply-list ---- */
 .pureness-reply {
     width: 100%;
     margin: 50px 0;
@@ -212,7 +212,7 @@
     padding: 0;
 }
 
-/* ---- reply-list ---- */
+/* ---- pureness-reply-form ---- */
 .pureness-reply-form {
     width: 100%;
     margin: 50px 0 20px;
