@@ -56,13 +56,13 @@
     font-weight: bold;
     font-size: 16px;
 }
-.pureness-timeline-item .register {
+.pureness-timeline-item .date {
     float: left;
     margin-left: 5px;
     height: 50px;
     line-height: 50px;
 }
-.pureness-timeline-item .register span {
+.pureness-timeline-item .date span {
     font-size: 14px;
     color: #000000;
 }
@@ -137,13 +137,13 @@
     font-weight: bold;
     font-size: 16px;
 }
-.pureness-timeline-form .register {
+.pureness-timeline-form .comment {
     float: left;
     margin-left: 5px;
     height: 50px;
     line-height: 50px;
 }
-.pureness-timeline-form .register span {
+.pureness-timeline-form .comment span {
     font-size: 14px;
     color: #000000;
 }

@@ -52,6 +52,8 @@
 /* ---- pureness-mypage-form ---- */
 .pureness-setting-form {
     width: 100%;
+    margin-bottom: 15px;
+    border-bottom: 1px solid #cbcbcb;
 }
 .pureness-setting-form .pure-g {
     margin-bottom: 15px;
