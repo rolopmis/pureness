@@ -140,14 +140,9 @@
 }
 .pureness-board-detail .title>h3 {
     font-size: 20px;
+    word-wrap: break-word
 }
-.pureness-board-detail .date {
-    padding-top: 5px;
-    font-weight: lighter;
-    font-size: 10px;
-    color: #7f8c8d;
-}
-.pureness-board-detail .content>p {
+.pureness-board-detail .content {
     width: 100%;
     min-height: 350px;
     margin: 0;
@@ -156,49 +151,57 @@
     border-radius: 4px;
     vertical-align: middle;
     box-sizing: border-box;
-    resize: none;
 }
-
-/* ---- pureness-reply-list ---- */
-.pureness-reply {
-    width: 100%;
-    margin: 50px 0;
+.pureness-board-detail .content>p {
+    word-wrap: break-word
 }
-.pureness-reply-list {
-    width: 100%;
-}
-.pureness-reply-list ul {
-    list-style: none;
-    padding-left: 0;
-    border-top: 1px solid #CBCBCB;
-}
-.pureness-reply-list li {
-    border-bottom: 1px solid #CBCBCB;
-}
-.pureness-reply-list .info {
-    width: 100%;
-    height: 30px;
-    line-height: 30px;
-    border-bottom: 1px dotted #CBCBCB;
-}
-.pureness-reply-list .register {
-    font-weight: bold;
-}
-.pureness-reply-list .date {
+.pureness-board-detail .date {
     padding-top: 5px;
     font-weight: lighter;
     font-size: 10px;
     color: #7f8c8d;
 }
-.pureness-reply-list .content {
+
+/* ---- pureness-comment-list ---- */
+.pureness-comment {
+    width: 100%;
+    margin: 50px 0;
+}
+.pureness-comment-list {
+    width: 100%;
+}
+.pureness-comment-list ul {
+    list-style: none;
+    padding-left: 0;
+    border-top: 1px solid #CBCBCB;
+}
+.pureness-comment-list li {
+    border-bottom: 1px solid #CBCBCB;
+}
+.pureness-comment-list .info {
+    width: 100%;
+    height: 30px;
+    line-height: 30px;
+    border-bottom: 1px dotted #CBCBCB;
+}
+.pureness-comment-list .register {
+    font-weight: bold;
+}
+.pureness-comment-list .date {
+    padding-top: 5px;
+    font-weight: lighter;
+    font-size: 10px;
+    color: #7f8c8d;
+}
+.pureness-comment-list .content {
     width: 100%;
     min-height: 70px
 }
-.pureness-reply-list .content>p {
+.pureness-comment-list .content>p {
     margin: 0px;
     padding: 5px;
 }
-.pureness-reply-list .content>textarea {
+.pureness-comment-list .content>textarea {
     margin: 5px 0;
     width: 100%;
     height: 100px;
@@ -206,48 +209,48 @@
     padding: 10px;
     resize: none;
 }
-.pureness-reply-list .buttons {
+.pureness-comment-list .buttons {
     width: 100%;
     height: 40px;
     text-align: right;
 }
-.pureness-reply-list .buttons>.pure-button {
+.pureness-comment-list .buttons>.pure-button {
     width: 50px;
     height: 30px;
     padding: 0;
 }
 
-/* ---- pureness-reply-form ---- */
-.pureness-reply-form {
+/* ---- pureness-comment-form ---- */
+.pureness-comment-form {
     width: 100%;
     margin: 50px 0 20px;
 }
-.pureness-reply-form .info {
+.pureness-comment-form .info {
     width: 100%;
     height: 30px;
     line-height: 30px;
     border-bottom: 1px solid #CBCBCB;
 }
-.pureness-reply-form .register {
+.pureness-comment-form .register {
     font-weight: bold;
 }
-.pureness-reply-form .content {
+.pureness-comment-form .content {
     width: 100%;
     margin: 5px 0;
 }
-.pureness-reply-form .content>textarea {
+.pureness-comment-form .content>textarea {
     width: 100%;
     height: 100px;
     box-sizing: border-box;
     padding: 10px;
     resize: none;
 }
-.pureness-reply-form .buttons {
+.pureness-comment-form .buttons {
     width: 100%;
     height: 40px;
     text-align: right;
 }
-.pureness-reply-form .buttons>.pure-button {
+.pureness-comment-form .buttons>.pure-button {
     width: 50px;
     height: 30px;
     padding: 0;
