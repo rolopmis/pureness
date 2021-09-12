@@ -200,6 +200,7 @@
 .pureness-comment-list .content>p {
     margin: 0px;
     padding: 5px;
+    box-sizing: border-box;
 }
 .pureness-comment-list .content>textarea {
     margin: 5px 0;
